@@ -79,7 +79,11 @@ const mobileNavLinks = [
     </button>
   </nav>
 
-  <div id="mobile-nav" class="overflow-hidden lg:hidden transition-all duration-300 max-h-0 opacity-0 bg-background/95 backdrop-blur-xl">
+  <div
+    id="mobile-nav"
+    class="overflow-hidden lg:hidden transition-all duration-300 max-h-0 opacity-0 bg-background/95 backdrop-blur-xl pointer-events-none"
+    style="max-height: 0px; opacity: 0; pointer-events: none;"
+  >
     <ul class="flex flex-col px-5 pb-6">
       {mobileNavLinks.map((link) => {
         const isActive = (link.href === '/' && currentPath === '/') || (link.href !== '/' && currentPath.startsWith(link.href));
@@ -138,14 +142,20 @@ const mobileNavLinks = [
       if (isOpen) {
         iconMenu.classList.add('hidden');
         iconClose.classList.remove('hidden');
-        menu.classList.remove('max-h-0', 'opacity-0');
+        menu.classList.remove('max-h-0', 'opacity-0', 'pointer-events-none');
         menu.classList.add('max-h-[600px]', 'opacity-100');
+        menu.style.maxHeight = '600px';
+        menu.style.opacity = '1';
+        menu.style.pointerEvents = 'auto';
         onScroll();
       } else {
         iconMenu.classList.remove('hidden');
         iconClose.classList.add('hidden');
-        menu.classList.add('max-h-0', 'opacity-0');
+        menu.classList.add('max-h-0', 'opacity-0', 'pointer-events-none');
         menu.classList.remove('max-h-[600px]', 'opacity-100');
+        menu.style.maxHeight = '0px';
+        menu.style.opacity = '0';
+        menu.style.pointerEvents = 'none';
         onScroll();
       }
     });
