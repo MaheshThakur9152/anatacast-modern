@@ -1,0 +1,167 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Statement from '../components/shared/Statement.astro';
+---
+
+<MainLayout
+  title="About — Ananta Cast"
+  description="Ananta Cast is an investment casting and machining company delivering ferrous components from casting to finished product."
+  currentPath="/about"
+>
+  <main>
+    <!-- SECTION 1: ABOUT HERO -->
+    <section class="relative h-[125svh]">
+      <div class="sticky top-0 h-svh overflow-hidden">
+        <div class="absolute inset-0 hero-clip-reveal">
+          <div class="absolute inset-0 will-change-transform" style="transform:scale(1.05)">
+            <img
+              alt="Molten steel being poured into ceramic investment moulds"
+              decoding="async"
+              class="object-cover w-full h-full"
+              src="/images/hero-pour.png"
+            />
+          </div>
+        </div>
+        <div class="absolute inset-0 bg-background" style="opacity:0.5"></div>
+        <div class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-background to-transparent"></div>
+
+        <div class="relative mx-auto flex h-full max-w-[1400px] flex-col justify-end px-5 pb-12 md:px-10 md:pb-16">
+          <p class="mb-6 font-mono text-[0.7rem] tracking-[0.2em] text-foreground/70 uppercase md:text-xs">
+            <span class="mr-2 inline-block size-1.5 translate-y-[-1px] rounded-full bg-molten align-middle"></span>
+            About Ananta Cast
+          </p>
+          <h1 class="text-[12.5vw] leading-[0.9] font-semibold tracking-[-0.045em] md:text-[8vw] xl:text-[7.5rem]">
+            <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-1">Foundry roots.</span></span>
+            <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-2"><span class="text-molten">Machinist</span> precision.</span></span>
+          </h1>
+          <p class="mt-8 max-w-lg text-base leading-relaxed text-foreground/75 md:text-lg" data-text-reveal="words">
+            We take a part from wax pattern to finished, inspected component — so you deal with one partner, not four.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: WHO WE ARE -->
+    <Statement
+      index="01"
+      label="Who we are"
+      copy="Ananta Cast is an investment casting company that thinks like a machine shop. We cast ferrous alloys, heat treat them, machine them and measure them — then ship them ready to assemble."
+      moltenWords={['alloys,']}
+    />
+
+    <!-- SECTION 3: THE NAME -->
+    <section aria-label="Our name" class="relative overflow-hidden py-28 md:py-44">
+      <p aria-hidden="true" class="pointer-events-none text-[34vw] leading-none font-semibold tracking-[-0.06em] whitespace-nowrap text-transparent [-webkit-text-stroke:1px_var(--border)] md:text-[22vw] select-none">
+        अनंत · Ananta
+      </p>
+      <div class="mx-auto -mt-[10vw] grid max-w-[1400px] gap-10 px-5 md:grid-cols-[auto_1fr] md:items-end md:gap-20 md:px-10">
+        <div aria-hidden="true" class="flex size-28 items-center justify-center rounded-full border border-molten text-6xl text-molten md:size-40 md:text-8xl select-none" style="transform:translateY(30%) rotate(-20deg)">
+          ∞
+        </div>
+        <div data-reveal style="opacity:0;transform:translateY(48px)">
+          <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+            <span class="text-molten">02</span> — The name
+          </p>
+          <h2 class="mt-4 max-w-3xl text-4xl leading-[0.95] font-semibold tracking-[-0.04em] text-balance md:text-6xl">
+            Ananta means endless.
+          </h2>
+          <p class="mt-6 max-w-xl text-base leading-relaxed text-foreground/70 md:text-lg" data-text-reveal="words">
+            In Sanskrit, <em>ananta</em> is the infinite — without end. It is how we think about our customers: not single orders, but partnerships that run for years, part after part, lot after lot.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: INSIDE THE FOUNDRY -->
+    <section aria-label="Inside the foundry" class="relative h-[150svh]">
+      <div class="sticky top-0 h-svh overflow-hidden">
+        <div class="absolute inset-0" style="clip-path:inset(18% 14% 18% 14% round 24px)">
+          <div class="absolute inset-0" style="transform:scale(1.3)">
+            <img
+              alt="Ceramic shell moulds drying on racks"
+              loading="lazy"
+              decoding="async"
+              class="object-cover w-full h-full"
+              src="/images/ceramic-shell.png"
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/10 to-transparent"></div>
+        </div>
+        <div class="relative mx-auto flex h-full max-w-[1400px] items-end px-5 pb-14 md:px-10 md:pb-20">
+          <p class="max-w-2xl text-3xl leading-[1.05] font-semibold tracking-[-0.035em] text-balance md:text-5xl" data-text-reveal="words" style="transform:translateY(60%)">
+            Every shell is built by hand, dip by dip, before a single gram of steel is poured.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: PRINCIPLES -->
+    <section aria-label="Principles" class="py-20 md:py-32">
+      <div class="mx-auto max-w-[1400px] px-5 md:px-10">
+        <div data-reveal style="opacity:0;transform:translateY(48px)">
+          <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+            <span class="text-molten">03</span> — How we work
+          </p>
+        </div>
+        <div class="mt-12 grid gap-px overflow-hidden rounded-md border border-border bg-border md:grid-cols-3">
+          <div class="h-full" data-reveal style="opacity:0;transform:translateY(50px)">
+            <div class="group flex h-full min-h-72 flex-col justify-between bg-background p-6 transition-colors duration-500 hover:bg-card md:p-10">
+              <span class="font-mono text-sm text-molten">01</span>
+              <div>
+                <h3 class="text-3xl font-semibold tracking-[-0.035em] transition-transform duration-500 group-hover:-translate-y-1 md:text-4xl">One roof</h3>
+                <p class="mt-4 text-base leading-relaxed text-foreground/65" data-text-reveal="words">
+                  Casting, heat treatment, machining and inspection in a single facility. Fewer hand-offs, fewer surprises.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="h-full" data-reveal style="opacity:0;transform:translateY(50px)">
+            <div class="group flex h-full min-h-72 flex-col justify-between bg-background p-6 transition-colors duration-500 hover:bg-card md:p-10">
+              <span class="font-mono text-sm text-molten">02</span>
+              <div>
+                <h3 class="text-3xl font-semibold tracking-[-0.035em] transition-transform duration-500 group-hover:-translate-y-1 md:text-4xl">Engineering first</h3>
+                <p class="mt-4 text-base leading-relaxed text-foreground/65" data-text-reveal="words">
+                  Every enquiry starts with a castability review, so problems are solved on paper — not on the shop floor.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="h-full" data-reveal style="opacity:0;transform:translateY(50px)">
+            <div class="group flex h-full min-h-72 flex-col justify-between bg-background p-6 transition-colors duration-500 hover:bg-card md:p-10">
+              <span class="font-mono text-sm text-molten">03</span>
+              <div>
+                <h3 class="text-3xl font-semibold tracking-[-0.035em] transition-transform duration-500 group-hover:-translate-y-1 md:text-4xl">Documented</h3>
+                <p class="mt-4 text-base leading-relaxed text-foreground/65" data-text-reveal="words">
+                  Material certificates and inspection reports travel with every lot. What we promise, we can prove.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: START A PROGRAMME CTA -->
+    <section aria-label="Start a project" class="px-3 py-20 md:px-6 md:py-28">
+      <div class="relative mx-auto max-w-[1500px] overflow-hidden bg-molten px-6 py-20 text-background md:px-14 md:py-28 rounded-[36px] md:rounded-[48px]">
+        <div class="flex flex-col gap-10 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="font-mono text-xs tracking-[0.2em] uppercase opacity-70">Start a programme</p>
+            <h2 class="mt-4 max-w-3xl text-5xl leading-[0.92] font-semibold tracking-[-0.045em] text-balance md:text-8xl">
+              Let's build something that lasts.
+            </h2>
+          </div>
+          <a class="group inline-flex h-14 shrink-0 items-center justify-center gap-3 self-start rounded-full bg-background px-8 text-base font-medium text-foreground transition-transform hover:scale-[1.03] md:self-auto" href="/contact">
+            Request a quote
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</MainLayout>

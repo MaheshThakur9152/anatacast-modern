@@ -1,0 +1,178 @@
+---
+const industries = [
+  {
+    num: '01',
+    name: 'Pumps & valves',
+    summary: 'Pressure-retaining bodies and rotating parts that must seal, flow and last.',
+    parts: ['Valve bodies & bonnets', 'Discs & wedges', 'Impellers & diffusers', 'Pump casings'],
+    alloys: 'CF8 · CF8M · CF3M · WCB · LCB',
+    img: '/images/finished-part.png',
+  },
+  {
+    num: '02',
+    name: 'Oil, gas & petrochem',
+    summary: 'Corrosion-resistant duplex and stainless components for aggressive media.',
+    parts: ['Duplex valve trim', 'Manifold blocks', 'Instrumentation fittings', 'Seal housings'],
+    alloys: 'Duplex 2205 · Super Duplex · CF3M',
+    img: '/images/hero-pour.png',
+  },
+  {
+    num: '03',
+    name: 'Automotive',
+    summary: 'Repeatable, high-volume parts where weight and geometry both matter.',
+    parts: ['Shift forks & levers', 'Brackets', 'Turbocharger components', 'Rocker arms'],
+    alloys: 'AISI 4140 · 8620 · SS 410',
+    img: '/images/bracket.png',
+  },
+  {
+    num: '04',
+    name: 'Agriculture & earthmoving',
+    summary: 'Tough wear parts and linkages built for mud, load and cycles.',
+    parts: ['Wear tips', 'Linkages & clevises', 'Hydraulic fittings', 'Gear-shift parts'],
+    alloys: 'EN 19 · EN 8 · Low-alloy steels',
+    img: '/images/ceramic-shell.png',
+  },
+  {
+    num: '05',
+    name: 'Food & pharma',
+    summary: 'Hygienic stainless parts with clean surfaces and full traceability.',
+    parts: ['Sanitary fittings', 'Pump housings', 'Mixer components', 'Clamp bodies'],
+    alloys: 'SS 316L · CF3M · CF8M',
+    img: '/images/cnc.png',
+  },
+  {
+    num: '06',
+    name: 'General engineering',
+    summary: 'Custom components built precisely to your drawing and standard.',
+    parts: ['Machine components', 'Housings & covers', 'Couplings', 'Bespoke parts'],
+    alloys: 'Full ferrous range',
+    img: '/images/impeller.png',
+  },
+];
+---
+
+<section aria-label="Industries" class="py-20 md:py-32">
+  <div class="mx-auto max-w-[1400px] px-5 md:px-10">
+    <ul class="border-t border-border" id="industries-list">
+      {industries.map((ind, idx) => {
+        const isFirst = idx === 0;
+        return (
+          <li class="border-b border-border industry-item" data-index={idx}>
+            <h2>
+              <button
+                type="button"
+                aria-expanded={isFirst ? 'true' : 'false'}
+                aria-controls={`industry-${idx}`}
+                class="group flex w-full items-center gap-4 py-7 text-left md:gap-8 md:py-10 industry-toggle"
+              >
+                <span class="font-mono text-xs text-molten">{ind.num}</span>
+                <span class={`flex-1 text-3xl font-semibold tracking-[-0.04em] transition-all duration-500 md:text-6xl industry-title ${isFirst ? 'text-foreground' : 'text-foreground/55 group-hover:translate-x-2 group-hover:text-foreground'}`}>
+                  {ind.name}
+                </span>
+                <span class={`flex size-11 shrink-0 items-center justify-center rounded-full border transition-colors icon-circle ${isFirst ? 'border-molten bg-molten text-background' : 'border-border'}`}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus size-4 transition-transform duration-300 plus-icon" style={isFirst ? 'transform: rotate(45deg);' : ''} aria-hidden="true">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5v14"></path>
+                  </svg>
+                </span>
+              </button>
+            </h2>
+
+            <div
+              id={`industry-${idx}`}
+              class={`overflow-hidden transition-all duration-500 industry-content ${isFirst ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0'}`}
+            >
+              <div class="grid gap-8 pb-10 md:grid-cols-[1fr_1fr] md:gap-14 md:pb-14 md:pl-14">
+                <div class="relative aspect-[16/10] overflow-hidden rounded-md md:order-2 bg-card">
+                  <img
+                    alt={ind.name}
+                    loading="lazy"
+                    decoding="async"
+                    class="object-cover w-full h-full"
+                    src={ind.img}
+                  />
+                </div>
+                <div class="flex flex-col justify-between gap-8">
+                  <p class="max-w-md text-lg leading-relaxed text-foreground/75 md:text-xl" data-text-reveal="words">
+                    {ind.summary}
+                  </p>
+                  <div>
+                    <p class="font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">
+                      Typical parts
+                    </p>
+                    <ul class="mt-3 grid grid-cols-2 gap-2">
+                      {ind.parts.map((p) => (
+                        <li class="flex items-center gap-2 text-sm md:text-base">
+                          <span class="size-1 shrink-0 rounded-full bg-molten"></span>
+                          {p}
+                        </li>
+                      ))}
+                    </ul>
+                    <p class="mt-6 font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">
+                      Common alloys
+                    </p>
+                    <p class="mt-2 font-mono text-sm text-steel">
+                      {ind.alloys}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</section>
+
+<script>
+  function setupIndustries() {
+    const items = document.querySelectorAll<HTMLElement>('.industry-item');
+    if (!items.length) return;
+
+    items.forEach((item) => {
+      const btn = item.querySelector<HTMLButtonElement>('.industry-toggle');
+      const content = item.querySelector<HTMLElement>('.industry-content');
+      const title = item.querySelector<HTMLElement>('.industry-title');
+      const circle = item.querySelector<HTMLElement>('.icon-circle');
+      const icon = item.querySelector<HTMLElement>('.plus-icon');
+
+      if (!btn || !content || !title || !circle || !icon) return;
+
+      btn.addEventListener('click', () => {
+        const isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+        // Close all
+        items.forEach((other) => {
+          const oBtn = other.querySelector<HTMLButtonElement>('.industry-toggle');
+          const oContent = other.querySelector<HTMLElement>('.industry-content');
+          const oTitle = other.querySelector<HTMLElement>('.industry-title');
+          const oCircle = other.querySelector<HTMLElement>('.icon-circle');
+          const oIcon = other.querySelector<HTMLElement>('.plus-icon');
+
+          if (oBtn && oContent && oTitle && oCircle && oIcon) {
+            oBtn.setAttribute('aria-expanded', 'false');
+            oContent.classList.add('max-h-0', 'opacity-0');
+            oContent.classList.remove('max-h-[800px]', 'opacity-100');
+            oTitle.className = 'flex-1 text-3xl font-semibold tracking-[-0.04em] transition-all duration-500 md:text-6xl industry-title text-foreground/55 group-hover:translate-x-2 group-hover:text-foreground';
+            oCircle.className = 'flex size-11 shrink-0 items-center justify-center rounded-full border transition-colors icon-circle border-border';
+            oIcon.style.transform = 'none';
+          }
+        });
+
+        // If it was closed, open it
+        if (!isOpen) {
+          btn.setAttribute('aria-expanded', 'true');
+          content.classList.remove('max-h-0', 'opacity-0');
+          content.classList.add('max-h-[800px]', 'opacity-100');
+          title.className = 'flex-1 text-3xl font-semibold tracking-[-0.04em] transition-all duration-500 md:text-6xl industry-title text-foreground';
+          circle.className = 'flex size-11 shrink-0 items-center justify-center rounded-full border transition-colors icon-circle border-molten bg-molten text-background';
+          icon.style.transform = 'rotate(45deg)';
+        }
+      });
+    });
+  }
+
+  setupIndustries();
+  document.addEventListener('astro:page-load', setupIndustries);
+</script>

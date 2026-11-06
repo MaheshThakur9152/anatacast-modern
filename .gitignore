@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Astro internal cache
+.astro/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large QA screenshot runs & diff frames
+reference-audit/screenshots/
+visual-qa/diff/
+visual-qa/local/
+visual-qa/reference/
+visual-qa/video_frames/
+visual-qa/word_reveal_diff/

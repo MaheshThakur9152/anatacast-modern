@@ -1,0 +1,160 @@
+---
+interface Props {
+  tagNumber?: string;
+  tagLabel?: string;
+  title?: string;
+  subtitle?: string;
+}
+
+const {
+  tagNumber = '07',
+  tagLabel = 'Start a programme',
+  title = 'Send us a drawing.',
+  subtitle = 'Share your part, material and volumes. Our engineering team reviews every enquiry for castability and responds with a feasibility note and quotation.',
+} = Astro.props;
+---
+
+<section id="contact" aria-label="Request a quote" class="relative py-28 md:py-40">
+  <div class="mx-auto grid max-w-[1400px] gap-16 px-5 md:grid-cols-[1fr_1.2fr] md:gap-24 md:px-10">
+    <div data-reveal style="opacity:0;transform:translateY(48px)">
+      <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+        <span class="text-molten">{tagNumber}</span> — {tagLabel}
+      </p>
+      <h2 class="mt-4 text-5xl leading-[0.92] font-semibold tracking-[-0.045em] text-balance md:text-7xl">
+        {title}
+      </h2>
+      <p class="mt-6 max-w-sm text-base leading-relaxed text-foreground/65" data-text-reveal="words">
+        {subtitle}
+      </p>
+      <a
+        href="mailto:bhavin.m@anantacast.com"
+        class="group mt-10 inline-flex min-h-11 items-center gap-2 text-lg font-medium underline decoration-foreground/30 underline-offset-8 transition-colors hover:text-molten hover:decoration-molten"
+      >
+        bhavin.m@anantacast.com
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true">
+          <path d="M7 7h10v10"></path>
+          <path d="M7 17 17 7"></path>
+        </svg>
+      </a>
+    </div>
+
+    <div data-reveal style="opacity:0;transform:translateY(48px)">
+      <form id="quote-form" class="grid gap-8 sm:grid-cols-2">
+        <label class="flex flex-col gap-1">
+          <span class="font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">Name *</span>
+          <input
+            required
+            autocomplete="name"
+            class="w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors"
+            placeholder="Your name"
+            name="name"
+          />
+        </label>
+
+        <label class="flex flex-col gap-1">
+          <span class="font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">Company *</span>
+          <input
+            required
+            autocomplete="organization"
+            class="w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors"
+            placeholder="Company"
+            name="company"
+          />
+        </label>
+
+        <label class="flex flex-col gap-1">
+          <span class="font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">Email *</span>
+          <input
+            type="email"
+            required
+            autocomplete="email"
+            class="w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors"
+            placeholder="you@company.com"
+            name="email"
+          />
+        </label>
+
+        <label class="flex flex-col gap-1">
+          <span class="font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">Phone</span>
+          <input
+            type="tel"
+            autocomplete="tel"
+            class="w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors"
+            placeholder="+91"
+            name="phone"
+          />
+        </label>
+
+        <label class="flex flex-col gap-1">
+          <span class="font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">Material</span>
+          <input
+            class="w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors"
+            placeholder="e.g. CF8M, WCB"
+            name="material"
+          />
+        </label>
+
+        <label class="flex flex-col gap-1">
+          <span class="font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">Annual quantity</span>
+          <input
+            inputmode="numeric"
+            class="w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors"
+            placeholder="e.g. 5,000 pcs"
+            name="quantity"
+          />
+        </label>
+
+        <label class="flex flex-col gap-1 sm:col-span-2">
+          <span class="font-mono text-[0.7rem] tracking-wider text-muted-foreground uppercase">Project details *</span>
+          <textarea
+            name="message"
+            required
+            rows="4"
+            class="w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors resize-none"
+            placeholder="Part description, weight, tolerances, machining requirements…"
+          ></textarea>
+        </label>
+
+        <div class="flex flex-col gap-4 sm:col-span-2 sm:flex-row sm:items-center sm:justify-between">
+          <p id="form-feedback" class="text-sm text-foreground/50" aria-live="polite">
+            Drawings can be attached in the email.
+          </p>
+          <button
+            type="submit"
+            class="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-molten px-8 text-base font-medium text-background transition-colors hover:bg-foreground"
+          >
+            Request a quote
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  function setupForm() {
+    const form = document.getElementById('quote-form') as HTMLFormElement | null;
+    const feedback = document.getElementById('form-feedback');
+    if (!form || !feedback) return;
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const isValid = form.checkValidity();
+      if (!isValid) {
+        form.reportValidity();
+        return;
+      }
+
+      feedback.textContent = 'Thank you. Your enquiry has been received. Our engineering team will review your drawing and respond within 24 hours.';
+      feedback.className = 'text-sm text-molten font-medium';
+      form.reset();
+    });
+  }
+
+  setupForm();
+  document.addEventListener('astro:page-load', setupForm);
+</script>

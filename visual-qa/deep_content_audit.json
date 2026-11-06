@@ -1,0 +1,90 @@
+{
+  "home": {
+    "refCount": 163,
+    "locCount": 134,
+    "missingInLoc": [
+      "Every lot is measured, documented and packed to your standard, with full material and dimensional reports.",
+      "CMM · DP · RADIOGRAPHY · MTC"
+    ],
+    "extraInLoc": [
+      "PATTERN ACCURACY ±0.05 MM"
+    ],
+    "invisibleLoc": []
+  },
+  "about": {
+    "refCount": 58,
+    "locCount": 36,
+    "missingInLoc": [
+      "AnantaCastisaninvestmentcastingcompanythatthinkslikeamachineshop.Wecastferrousalloys,heattreatthem,machinethemandmeasurethem—thenshipthemreadytoassemble."
+    ],
+    "extraInLoc": [],
+    "invisibleLoc": []
+  },
+  "capabilities": {
+    "refCount": 107,
+    "locCount": 107,
+    "missingInLoc": [],
+    "extraInLoc": [],
+    "invisibleLoc": []
+  },
+  "process": {
+    "refCount": 47,
+    "locCount": 47,
+    "missingInLoc": [
+      "Every lot is measured, documented and packed to your standard, with full material and dimensional reports.",
+      "CMM · DP · RADIOGRAPHY · MTC"
+    ],
+    "extraInLoc": [
+      "Aluminium dies inject precise wax replicas of your part, assembled onto a sprue to form the casting tree.",
+      "PATTERN ACCURACY ±0.05 MM"
+    ],
+    "invisibleLoc": []
+  },
+  "products": {
+    "refCount": 66,
+    "locCount": 66,
+    "missingInLoc": [],
+    "extraInLoc": [],
+    "invisibleLoc": []
+  },
+  "industries": {
+    "refCount": 62,
+    "locCount": 79,
+    "missingInLoc": [
+      "Whetherapartsealsapipelineorshiftsagear,itiscast,machinedandmeasuredtothesamediscipline—andshippedwiththereportstoproveit."
+    ],
+    "extraInLoc": [
+      "Duplex valve trim",
+      "Manifold blocks",
+      "Instrumentation fittings",
+      "Seal housings",
+      "Duplex 2205 · Super Duplex · CF3M",
+      "Shift forks & levers",
+      "Brackets",
+      "Turbocharger components",
+      "Rocker arms",
+      "AISI 4140 · 8620 · SS 410",
+      "Wear tips",
+      "Linkages & clevises",
+      "Hydraulic fittings",
+      "EN 19 · EN 8 · Low-alloy steels",
+      "Sanitary fittings",
+      "Pump housings",
+      "Mixer components",
+      "Clamp bodies",
+      "SS 316L · CF3M · CF8M",
+      "Machine components",
+      "Housings & covers",
+      "Couplings",
+      "Full ferrous range"
+    ],
+    "invisibleLoc": []
+  },
+  "contact": {
+    "refCount": 37,
+    "locCount": 37,
+    "missingInLoc": [],
+    "extraInLoc": [],
+    "invisibleLoc": []
+  }
+}

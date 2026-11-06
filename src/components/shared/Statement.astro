@@ -1,0 +1,82 @@
+---
+interface Props {
+  index?: string;
+  label: string;
+  copy: string;
+  link?: {
+    href: string;
+    label: string;
+  };
+  moltenWords?: string[];
+}
+
+const { index = '01', label, copy, link, moltenWords } = Astro.props;
+
+const words = copy.split(' ');
+
+function isWordMolten(w: string): boolean {
+  if (moltenWords && moltenWords.length > 0) {
+    const clean = w.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return moltenWords.some((mw) => mw.toLowerCase() === clean);
+  }
+  return w.startsWith('all') || w.startsWith('one');
+}
+---
+
+<section aria-label={label} class="relative px-5 py-32 md:px-10 md:py-48">
+  <div class="mx-auto max-w-[1400px]">
+    <p class="mb-10 font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+      <span class="text-molten">{index}</span> — {label}
+    </p>
+
+    <div data-statement-target data-text-reveal="words">
+      <p class="sr-only">{copy}</p>
+      <p
+        aria-hidden="true"
+        class="max-w-6xl text-[1.85rem] leading-[1.12] font-medium tracking-[-0.03em] md:text-6xl lg:text-7xl"
+      >
+        {words.map((word) => {
+          const molten = isWordMolten(word);
+          return (
+            <span
+              class={`reveal-word mr-[0.25em] inline-block will-change-[opacity,transform] ${molten ? 'text-molten' : ''}`}
+              style="opacity: 0.14; transform: translateY(8px);"
+            >
+              {word}
+            </span>
+          );
+        })}
+      </p>
+    </div>
+
+    {link && (
+      <a
+        class="group inline-flex min-h-11 items-center gap-3 text-base font-medium text-foreground transition-colors hover:text-molten mt-12"
+        href={link.href}
+      >
+        <span class="relative">
+          {link.label}
+          <span class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-100 bg-current transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:origin-left group-hover:scale-x-0"></span>
+        </span>
+        <span class="flex size-9 items-center justify-center rounded-full border border-foreground/20 transition-all duration-500 group-hover:border-molten group-hover:bg-molten group-hover:text-background">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-right size-4 transition-transform duration-500 group-hover:translate-x-0.5"
+            aria-hidden="true"
+          >
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
+        </span>
+      </a>
+    )}
+  </div>
+</section>

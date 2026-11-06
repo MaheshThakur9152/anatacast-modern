@@ -1,0 +1,156 @@
+---
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '/' } = Astro.props;
+
+const navLinks = [
+  { href: '/about', label: 'About' },
+  { href: '/capabilities', label: 'Capabilities' },
+  { href: '/process', label: 'Process' },
+  { href: '/products', label: 'Products' },
+  { href: '/industries', label: 'Industries' },
+];
+
+const mobileNavLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About' },
+  { href: '/capabilities', label: 'Capabilities' },
+  { href: '/process', label: 'Process' },
+  { href: '/products', label: 'Products' },
+  { href: '/industries', label: 'Industries' },
+  { href: '/contact', label: 'Contact' },
+];
+---
+
+<header id="site-header" class="fixed inset-x-0 top-0 z-50 transition-all duration-500 bg-transparent">
+  <nav aria-label="Primary" class="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-5 md:px-10">
+    <a aria-label="Ananta Cast home" class="flex min-h-11 items-center" href="/">
+      <span class="inline-flex items-center gap-2.5">
+        <svg viewBox="0 0 32 20" class="h-4 w-auto" aria-hidden="true">
+          <path d="M16 10c-3-4.5-5.5-7-9-7a7 7 0 1 0 0 14c3.5 0 6-2.5 9-7Zm0 0c3 4.5 5.5 7 9 7a7 7 0 1 0 0-14c-3.5 0-6 2.5-9 7Z" fill="none" stroke="currentColor" stroke-width="2.4"></path>
+          <circle cx="25" cy="10" r="2.2" class="fill-molten"></circle>
+        </svg>
+        <span class="text-[0.95rem] font-semibold tracking-[0.18em] uppercase">Ananta Cast</span>
+      </span>
+    </a>
+
+    <ul class="hidden items-center gap-8 lg:flex">
+      {navLinks.map((link) => {
+        const isActive = currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href));
+        return (
+          <li>
+            <a
+              class={`relative py-2 text-sm transition-colors hover:text-foreground ${isActive ? 'text-foreground' : 'text-foreground/65'}`}
+              href={link.href}
+            >
+              {link.label}
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+
+    <a
+      class="hidden h-10 items-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-molten lg:inline-flex"
+      href="/contact"
+    >
+      Request a quote
+    </a>
+
+    <button
+      id="mobile-nav-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-nav"
+      aria-label="Open menu"
+      class="-mr-2 flex size-11 items-center justify-center lg:hidden text-foreground"
+    >
+      <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu size-5" aria-hidden="true">
+        <path d="M4 5h16"></path>
+        <path d="M4 12h16"></path>
+        <path d="M4 19h16"></path>
+      </svg>
+      <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x size-5 hidden" aria-hidden="true">
+        <path d="M18 6 6 18"></path>
+        <path d="m6 6 12 12"></path>
+      </svg>
+    </button>
+  </nav>
+
+  <div id="mobile-nav" class="overflow-hidden lg:hidden transition-all duration-300 max-h-0 opacity-0 bg-background/95 backdrop-blur-xl">
+    <ul class="flex flex-col px-5 pb-6">
+      {mobileNavLinks.map((link) => {
+        const isActive = (link.href === '/' && currentPath === '/') || (link.href !== '/' && currentPath.startsWith(link.href));
+        return (
+          <li class="border-b border-border">
+            <a
+              class={`flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight ${isActive ? 'text-foreground' : 'text-foreground/75'}`}
+              href={link.href}
+              {...(isActive ? { 'aria-current': 'page' } : {})}
+            >
+              {link.label}
+              {isActive && <span class="size-1.5 rounded-full bg-molten"></span>}
+            </a>
+          </li>
+        );
+      })}
+      <li class="pt-5">
+        <a class="flex h-12 items-center justify-center rounded-full bg-molten font-medium text-background" href="/contact">
+          Request a quote
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<script>
+  function setupHeader() {
+    const header = document.getElementById('site-header');
+    const toggle = document.getElementById('mobile-nav-toggle');
+    const menu = document.getElementById('mobile-nav');
+    const iconMenu = document.getElementById('icon-menu');
+    const iconClose = document.getElementById('icon-close');
+
+    if (!header || !toggle || !menu || !iconMenu || !iconClose) return;
+
+    let isOpen = false;
+
+    const onScroll = () => {
+      if (window.scrollY > 20 || isOpen) {
+        header.classList.add('bg-background/85', 'backdrop-blur-xl', 'border-b', 'border-border/60');
+        header.classList.remove('bg-transparent');
+      } else {
+        header.classList.remove('bg-background/85', 'backdrop-blur-xl', 'border-b', 'border-border/60');
+        header.classList.add('bg-transparent');
+      }
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    toggle.addEventListener('click', () => {
+      isOpen = !isOpen;
+      toggle.setAttribute('aria-expanded', String(isOpen));
+      toggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+
+      if (isOpen) {
+        iconMenu.classList.add('hidden');
+        iconClose.classList.remove('hidden');
+        menu.classList.remove('max-h-0', 'opacity-0');
+        menu.classList.add('max-h-[600px]', 'opacity-100');
+        onScroll();
+      } else {
+        iconMenu.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+        menu.classList.add('max-h-0', 'opacity-0');
+        menu.classList.remove('max-h-[600px]', 'opacity-100');
+        onScroll();
+      }
+    });
+  }
+
+  setupHeader();
+  document.addEventListener('astro:page-load', setupHeader);
+</script>

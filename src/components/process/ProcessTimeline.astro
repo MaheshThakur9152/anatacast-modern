@@ -1,0 +1,286 @@
+---
+interface Props {
+  sectionId?: string;
+}
+
+const { sectionId = 'process' } = Astro.props;
+
+const stages = [
+  {
+    title: 'Tooling & wax',
+    body: 'Aluminium dies inject precise wax replicas of your part, assembled onto a sprue to form the casting tree.',
+    spec: 'Pattern accuracy ±0.05 mm',
+    img: '/images/wax-tree.png',
+    alt: 'Wax pattern tree assembled on a central sprue',
+  },
+  {
+    title: 'Shell building',
+    body: 'The tree is dipped in ceramic slurry and stuccoed layer by layer, then de-waxed to leave a perfect hollow mould.',
+    spec: '7–9 ceramic coats',
+    img: '/images/ceramic-shell.png',
+    alt: 'Wax tree coated with white ceramic shell',
+  },
+  {
+    title: 'Melting & pouring',
+    body: 'Induction-melted alloy, verified by spectro analysis, is poured into pre-heated shells for clean, dense metal.',
+    spec: 'Chemistry checked every heat',
+    img: '/images/hero-pour.png',
+    alt: 'Molten metal pouring into ceramic shells',
+  },
+  {
+    title: 'Fettling & heat treatment',
+    body: 'Shells are knocked out, gates cut and ground, and parts heat treated to the mechanical properties you specify.',
+    spec: 'Solution annealing · Q&T · Normalising',
+    img: '/images/impeller.png',
+    alt: 'Raw investment cast stainless steel impeller',
+  },
+  {
+    title: 'CNC machining',
+    body: 'In-house turning and multi-axis milling take the casting to final dimension — no second supplier, no lost time.',
+    spec: 'VMC · HMC · CNC turning',
+    img: '/images/cnc.png',
+    alt: 'CNC machine cutting a cast component',
+  },
+  {
+    title: 'Inspection & dispatch',
+    body: 'Every lot is measured, documented and packed to your standard, with full material and dimensional reports.',
+    spec: 'CMM · DP · Radiography · MTC',
+    img: '/images/cmm.png',
+    alt: 'CMM probe measuring a machined part',
+  },
+];
+---
+
+<section id={sectionId} aria-label="Our process" class="relative h-[600svh] process-section">
+  <div class="sticky top-0 flex h-svh flex-col overflow-hidden md:flex-row">
+    <!-- Right side (Images) -->
+    <div class="relative h-[52svh] w-full md:order-2 md:h-full md:w-[55%]">
+      {stages.map((stage, idx) => (
+        <div
+          class="absolute inset-0 overflow-hidden stage-image-wrapper transition-[clip-path] duration-300 ease-out"
+          data-stage-idx={idx}
+          style={idx === 0 ? 'clip-path: inset(0% 0 0 0); z-index: 1;' : `clip-path: inset(100% 0 0 0); z-index: ${idx + 1};`}
+        >
+          <div class="absolute inset-0 stage-image-inner will-change-transform" style="transform: scale(1.2);">
+            <img
+              alt={stage.alt}
+              loading="lazy"
+              decoding="async"
+              class="object-cover w-full h-full"
+              src={stage.img}
+            />
+          </div>
+        </div>
+      ))}
+      <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent md:bg-gradient-to-r pointer-events-none z-10"></div>
+      <div id="process-counter" class="absolute top-20 right-5 font-mono text-xs tracking-[0.2em] text-foreground/80 md:top-24 md:right-10 z-20">
+        01 / 06
+      </div>
+    </div>
+
+    <!-- Left side (Text & Navigation) -->
+    <div class="relative flex flex-1 flex-col justify-between px-5 pt-2 pb-8 md:order-1 md:px-10 md:pt-28 md:pb-14 z-20">
+      <div>
+        <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+          <span class="text-molten">02</span> — The process
+        </p>
+        <h2 class="mt-4 hidden max-w-md text-5xl leading-[0.95] font-semibold tracking-[-0.04em] md:block lg:text-6xl">
+          Six stages. One accountable partner.
+        </h2>
+      </div>
+
+      <!-- Stage content items container with smooth vertical crossfading -->
+      <div class="relative min-h-[14rem] md:min-h-[16rem]">
+        {stages.map((stage, idx) => (
+          <div
+            class="stage-content-item absolute inset-0 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]"
+            data-stage-item={idx}
+            style={
+              idx === 0
+                ? 'opacity: 1; transform: translateY(0); pointer-events: auto;'
+                : 'opacity: 0; transform: translateY(24px); pointer-events: none;'
+            }
+          >
+            <p class="font-mono text-sm text-molten">0{idx + 1}</p>
+            <h3 class="mt-2 text-4xl leading-none font-semibold tracking-[-0.035em] md:text-5xl">
+              {stage.title}
+            </h3>
+            <p
+              class="mt-4 max-w-md text-base leading-relaxed text-foreground/70 md:text-lg"
+              data-text-reveal="words"
+              data-custom-scroll="true"
+            >
+              {stage.body}
+            </p>
+            <p class="mt-5 inline-flex rounded-full border border-border px-3 py-1.5 font-mono text-[0.7rem] tracking-wider text-steel uppercase">
+              {stage.spec}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <!-- Navigation & progress bar -->
+      <div>
+        <ol class="mb-4 hidden grid-cols-6 gap-2 md:grid" aria-label="Process stages">
+          {stages.map((stage, idx) => (
+            <li
+              data-step-idx={idx}
+              class={`text-[0.7rem] leading-tight transition-colors duration-500 cursor-pointer ${idx === 0 ? 'text-foreground' : 'text-foreground/30'}`}
+              aria-current={idx === 0 ? 'step' : undefined}
+            >
+              {stage.title}
+            </li>
+          ))}
+        </ol>
+        <div class="h-px w-full bg-foreground/15">
+          <div id="process-progress-bar" class="h-px bg-molten transition-all duration-150" style="width: 0%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { splitIntoWords, updateWordsProgress } from '../../scripts/text-reveal';
+
+  function setupProcessScroll() {
+    const sec = document.querySelector<HTMLElement>('.process-section');
+    if (!sec) return;
+
+    const wrappers = sec.querySelectorAll<HTMLElement>('.stage-image-wrapper');
+    const inners = sec.querySelectorAll<HTMLElement>('.stage-image-inner');
+    const counter = sec.querySelector<HTMLElement>('#process-counter');
+    const stageItems = sec.querySelectorAll<HTMLElement>('.stage-content-item');
+    const stepItems = sec.querySelectorAll<HTMLElement>('li[data-step-idx]');
+    const progressBar = sec.querySelector<HTMLElement>('#process-progress-bar');
+
+    const numStages = stageItems.length;
+    if (numStages === 0) return;
+
+    // Prepare stage text words
+    stageItems.forEach((item) => {
+      const p = item.querySelector<HTMLElement>('[data-text-reveal="words"]');
+      if (p) splitIntoWords(p);
+    });
+
+    let currentStage = 0;
+
+    const updateStage = (idx: number) => {
+      if (idx === currentStage) return;
+      currentStage = idx;
+
+      if (counter) counter.textContent = `0${idx + 1} / 06`;
+
+      stageItems.forEach((item, i) => {
+        if (i === idx) {
+          item.style.opacity = '1';
+          item.style.transform = 'translateY(0)';
+          item.style.pointerEvents = 'auto';
+        } else if (i < idx) {
+          item.style.opacity = '0';
+          item.style.transform = 'translateY(-24px)';
+          item.style.pointerEvents = 'none';
+        } else {
+          item.style.opacity = '0';
+          item.style.transform = 'translateY(24px)';
+          item.style.pointerEvents = 'none';
+        }
+      });
+
+      stepItems.forEach((li, i) => {
+        if (i <= idx) {
+          li.classList.remove('text-foreground/30');
+          li.classList.add('text-foreground');
+        } else {
+          li.classList.add('text-foreground/30');
+          li.classList.remove('text-foreground');
+        }
+        if (i === idx) {
+          li.setAttribute('aria-current', 'step');
+        } else {
+          li.removeAttribute('aria-current');
+        }
+      });
+    };
+
+    const onScroll = () => {
+      const rect = sec.getBoundingClientRect();
+      const totalScroll = rect.height - window.innerHeight;
+      if (totalScroll <= 0) return;
+
+      const progress = Math.max(0, Math.min(1, -rect.top / totalScroll));
+      if (progressBar) progressBar.style.width = `${progress * 100}%`;
+
+      const activeIdx = Math.min(numStages - 1, Math.floor(progress * numStages));
+      updateStage(activeIdx);
+
+      // Word reveal for stage bodies
+      const stageStart = activeIdx / numStages;
+      const stageSpan = 0.85 / numStages;
+      const stageProgress = Math.max(0, Math.min(1, (progress - stageStart) / stageSpan));
+
+      stageItems.forEach((item, i) => {
+        const p = item.querySelector<HTMLElement>('[data-text-reveal="words"]');
+        if (!p) return;
+        const words = p.querySelectorAll<HTMLElement>('.reveal-word');
+        if (i < activeIdx) {
+          updateWordsProgress(words, 1);
+        } else if (i > activeIdx) {
+          updateWordsProgress(words, 0);
+        } else {
+          updateWordsProgress(words, stageProgress);
+        }
+      });
+
+      // Update image clip paths using reference formula:
+      // m = i/6 - 0.06, u = i/6 + 0.04
+      wrappers.forEach((w, i) => {
+        if (i === 0) {
+          w.style.clipPath = 'inset(0% 0 0 0)';
+          return;
+        }
+        const m = i / numStages - 0.06;
+        const u = i / numStages + 0.04;
+        let inset = 100;
+        if (progress >= u) {
+          inset = 0;
+        } else if (progress <= m) {
+          inset = 100;
+        } else {
+          inset = (1 - (progress - m) / (u - m)) * 100;
+        }
+        w.style.clipPath = `inset(${inset.toFixed(1)}% 0 0 0)`;
+      });
+
+      inners.forEach((inner, i) => {
+        const m = i / numStages - 0.06;
+        const u = i / numStages + 0.24;
+        let scale = 1.2;
+        if (progress >= u) {
+          scale = 1.0;
+        } else if (progress <= m) {
+          scale = 1.2;
+        } else {
+          scale = 1.2 - ((progress - m) / (u - m)) * 0.2;
+        }
+        inner.style.transform = `scale(${scale.toFixed(3)})`;
+      });
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Click on step item scrolls directly to that stage
+    stepItems.forEach((li, idx) => {
+      li.addEventListener('click', () => {
+        const secTop = sec.getBoundingClientRect().top + window.scrollY;
+        const totalScroll = sec.offsetHeight - window.innerHeight;
+        const targetScroll = secTop + (idx / numStages) * totalScroll + 10;
+        window.scrollTo({ top: targetScroll, behavior: 'smooth' });
+      });
+    });
+  }
+
+  setupProcessScroll();
+  document.addEventListener('astro:page-load', setupProcessScroll);
+</script>

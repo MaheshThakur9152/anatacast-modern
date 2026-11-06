@@ -1,0 +1,449 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import ProcessTimeline from '../components/process/ProcessTimeline.astro';
+import AlloyMarquee from '../components/shared/AlloyMarquee.astro';
+import ContactSection from '../components/contact/ContactSection.astro';
+import Statement from '../components/shared/Statement.astro';
+
+const components = [
+  {
+    title: 'Valve bodies',
+    mat: 'CF8M · WCB · Duplex',
+    no: '01',
+    img: '/images/finished-part.png',
+  },
+  {
+    title: 'Pump impellers',
+    mat: 'CF8 · CA15 · 17-4PH',
+    no: '02',
+    img: '/images/impeller.png',
+  },
+  {
+    title: 'Levers & brackets',
+    mat: '4140 · 8620 · SS 410',
+    no: '03',
+    img: '/images/bracket.png',
+  },
+  {
+    title: 'Machined assemblies',
+    mat: 'Cast + CNC finished',
+    no: '04',
+    img: '/images/cnc.png',
+  },
+  {
+    title: 'Wax-to-part prototypes',
+    mat: 'Low volume · fast tooling',
+    no: '05',
+    img: '/images/wax-tree.png',
+  },
+];
+
+const capabilitiesSpecs = [
+  { dt: 'Process', dd: 'Lost-wax investment casting' },
+  { dt: 'Part weight', dd: '0.02 – 40 kg' },
+  { dt: 'Dimensional tolerance', dd: 'ISO 8062 · CT4 – CT6' },
+  { dt: 'As-cast surface', dd: 'Ra 3.2 – 6.3 µm' },
+  { dt: 'Machining', dd: 'CNC turning · VMC · 4/5-axis milling' },
+  { dt: 'Heat treatment', dd: 'Annealing · Normalising · Q&T · Case hardening' },
+  { dt: 'Testing', dd: 'Spectro · CMM · Hardness · DP · Radiography' },
+];
+
+const homeIndustries = [
+  { no: '01', name: 'Pumps & valves', desc: 'Bodies, bonnets, discs, impellers' },
+  { no: '02', name: 'Oil, gas & petrochem', desc: 'Pressure-retaining duplex and stainless parts' },
+  { no: '03', name: 'Automotive', desc: 'Levers, forks, brackets, turbo components' },
+  { no: '04', name: 'Agriculture & earthmoving', desc: 'Wear parts, linkages, hydraulic fittings' },
+  { no: '05', name: 'Food & pharma', desc: 'Hygienic 316L fittings and housings' },
+  { no: '06', name: 'General engineering', desc: 'Custom components built to drawing' },
+];
+---
+
+<MainLayout title="Ananta Cast — From Casting to Finished Product" currentPath="/">
+  <!-- SECTION 1: HERO -->
+  <section id="top" class="relative h-[140svh]">
+    <div class="sticky top-0 h-svh overflow-hidden">
+      <div class="absolute inset-0 will-change-transform hero-bg-scale" style="transform:scale(1.08)">
+        <img
+          alt="Molten stainless steel being poured into ceramic shell moulds"
+          decoding="async"
+          class="object-cover object-[35%_center] w-full h-full"
+          src="/images/hero-pour.png"
+        />
+      </div>
+      <div class="absolute inset-0 bg-background" style="opacity:0.35"></div>
+      <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-background to-transparent"></div>
+
+      <div class="relative mx-auto flex h-full max-w-[1400px] flex-col justify-end px-5 pb-12 md:px-10 md:pb-16">
+        <p class="mb-6 font-mono text-[0.7rem] tracking-[0.2em] text-foreground/70 uppercase md:text-xs">
+          <span class="mr-2 inline-block size-1.5 translate-y-[-1px] rounded-full bg-molten align-middle"></span>
+          Investment Casting · CNC Machining · Inspection
+        </p>
+        <h1 class="text-[13.5vw] leading-[0.9] font-semibold tracking-[-0.045em] text-balance md:text-[9.5vw] xl:text-[8.5rem]">
+          <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-1">From casting</span></span>
+          <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-2">to <span class="text-molten">finished</span></span></span>
+          <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-3">product.</span></span>
+        </h1>
+
+        <div class="mt-10 flex flex-col gap-6 md:flex-row md:items-end md:justify-between" data-reveal style="opacity:0;transform:translateY(20px)">
+          <p class="max-w-md text-base leading-relaxed text-foreground/75 md:text-lg" data-text-reveal="words">
+            One partner for the entire journey of a metal part — pattern, shell, pour, heat treatment, machining and inspection, under a single roof.
+          </p>
+          <div class="flex items-center gap-3 font-mono text-[0.7rem] tracking-[0.2em] text-foreground/60 uppercase">
+            <span class="relative block h-10 w-px overflow-hidden bg-foreground/20">
+              <span class="absolute inset-x-0 top-0 h-1/2 bg-molten animate-scroll-pill"></span>
+            </span>
+            Scroll
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: WHY ANANTA -->
+  <Statement
+    index="01"
+    label="Why Ananta"
+    copy="Most parts change hands four times before they reach your line. A foundry pours it, a machinist cuts it, someone inspects it, someone else ships it. We do all of it — so tolerances, timelines and accountability never leave one roof."
+    link={{ href: '/about', label: 'Our story' }}
+  />
+
+  <!-- SECTION 3: SIX STAGES (OUR PROCESS) -->
+  <ProcessTimeline sectionId="process" />
+
+  <!-- SECTION 4: READY TO FIT (RESULT) -->
+  <section aria-label="Finished component" class="relative h-[280svh] result-section">
+    <div class="sticky top-0 flex h-svh items-center justify-center overflow-hidden">
+      <div class="absolute inset-x-0 top-[12%] z-10 px-5 text-center result-heading-block">
+        <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+          <span class="text-molten">03</span> — The result
+        </p>
+        <h2 class="mx-auto mt-4 max-w-3xl text-4xl leading-[0.95] font-semibold tracking-[-0.04em] text-balance md:text-7xl">
+          Ready to fit. Not ready to machine.
+        </h2>
+      </div>
+
+      <div class="relative overflow-hidden bg-black will-change-[width,height] result-frame" style="width:62%;height:48%;border-radius:20px">
+        <div class="absolute inset-0 result-img-inner will-change-transform" style="transform:scale(1.25) rotate(-6deg)">
+          <img
+            alt="Precision machined stainless steel investment cast valve body"
+            loading="lazy"
+            decoding="async"
+            class="object-contain md:object-cover w-full h-full"
+            src="/images/finished-part.png"
+          />
+        </div>
+      </div>
+
+      <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background via-background/70 to-transparent px-5 pt-24 pb-10 md:px-10 md:pb-14 result-specs will-change-[opacity,transform]" style="opacity:0;transform:translateY(60px)">
+        <div class="mx-auto grid max-w-[1400px] gap-8 md:grid-cols-3">
+          <div class="border-t border-foreground/20 pt-4">
+            <h3 class="text-lg font-semibold tracking-tight">Near-net shape</h3>
+            <p class="mt-2 text-sm leading-relaxed text-foreground/70" data-text-reveal="words" data-custom-scroll="true">
+              Investment casting gets within millimetres of final form, cutting material and machining time.
+            </p>
+          </div>
+          <div class="border-t border-foreground/20 pt-4">
+            <h3 class="text-lg font-semibold tracking-tight">Machined in-house</h3>
+            <p class="mt-2 text-sm leading-relaxed text-foreground/70" data-text-reveal="words" data-custom-scroll="true">
+              Critical faces, bores and threads finished on our own CNC cells to drawing tolerance.
+            </p>
+          </div>
+          <div class="border-t border-foreground/20 pt-4">
+            <h3 class="text-lg font-semibold tracking-tight">Documented</h3>
+            <p class="mt-2 text-sm leading-relaxed text-foreground/70" data-text-reveal="words" data-custom-scroll="true">
+              Material certificates and dimensional reports travel with every dispatch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: WHAT LEAVES OUR FLOOR (COMPONENTS) -->
+  <section aria-label="Components we make" class="relative h-[320svh] horizontal-showcase-section">
+    <div class="sticky top-0 flex h-svh flex-col justify-center overflow-hidden">
+      <div class="mx-auto mb-8 flex w-full max-w-[1400px] items-end justify-between px-5 md:mb-12 md:px-10">
+        <div data-reveal style="opacity:0;transform:translateY(48px)">
+          <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+            <span class="text-molten">04</span> — Components
+          </p>
+          <h2 class="mt-4 text-4xl leading-[0.95] font-semibold tracking-[-0.04em] md:text-6xl">
+            What leaves our floor.
+          </h2>
+        </div>
+        <div class="flex flex-col items-end gap-4" data-reveal style="opacity:0;transform:translateY(48px)" data-delay="0.1">
+          <p class="hidden max-w-xs text-sm leading-relaxed text-foreground/60 md:block" data-text-reveal="words">
+            Built to your drawing. Representative parts shown — every programme is engineered to specification.
+          </p>
+          <a
+            aria-label="View all products"
+            class="flex size-11 items-center justify-center rounded-full border border-foreground/20 transition-colors hover:border-molten hover:bg-molten hover:text-background md:h-11 md:w-auto md:gap-2 md:px-5 md:text-sm"
+            href="/products"
+          >
+            <span class="hidden md:inline">View catalogue</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4" aria-hidden="true">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex w-max gap-4 px-5 md:gap-6 md:px-10 horizontal-track will-change-transform">
+        {components.map((c) => (
+          <article class="group relative h-[52svh] w-[78vw] shrink-0 overflow-hidden rounded-md bg-card md:h-[58svh] md:w-[34vw]">
+            <img
+              alt={c.title}
+              loading="lazy"
+              decoding="async"
+              class="object-cover w-full h-full transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
+              src={c.img}
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent"></div>
+            <div class="absolute inset-x-0 bottom-0 flex items-end justify-between p-6">
+              <div>
+                <h3 class="text-2xl font-semibold tracking-tight md:text-3xl">{c.title}</h3>
+                <p class="mt-1 font-mono text-xs tracking-wider text-steel uppercase">{c.mat}</p>
+              </div>
+              <span class="font-mono text-xs text-foreground/60">{c.no}</span>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: CAPABILITIES & ALLOY TICKER -->
+  <section id="capabilities" aria-label="Capabilities" class="relative py-28 md:py-44">
+    <div class="mx-auto max-w-[1400px] px-5 md:px-10">
+      <div class="grid gap-12 md:grid-cols-[1fr_1.3fr] md:gap-20">
+        <div data-reveal style="opacity:0;transform:translateY(48px)">
+          <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+            <span class="text-molten">05</span> — Capabilities
+          </p>
+          <h2 class="mt-4 text-4xl leading-[0.95] font-semibold tracking-[-0.04em] text-balance md:text-6xl">
+            Engineered within microns.
+          </h2>
+          <p class="mt-6 max-w-sm text-base leading-relaxed text-foreground/65" data-text-reveal="words">
+            Ferrous investment castings in stainless, carbon and alloy steels — delivered as-cast or fully machined to your print.
+          </p>
+          <a class="group inline-flex min-h-11 items-center gap-3 text-base font-medium text-foreground transition-colors hover:text-molten mt-8" href="/capabilities">
+            <span class="relative">
+              All capabilities
+              <span class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-100 bg-current transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:origin-left group-hover:scale-x-0"></span>
+            </span>
+            <span class="flex size-9 items-center justify-center rounded-full border border-foreground/20 transition-all duration-500 group-hover:border-molten group-hover:bg-molten group-hover:text-background">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4 transition-transform duration-500 group-hover:translate-x-0.5" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <dl class="divide-y divide-border border-y border-border">
+          {capabilitiesSpecs.map((spec, s) => (
+            <div data-reveal data-delay={(s * 0.04).toFixed(2)} style="opacity:0;transform:translateY(24px)">
+              <div class="grid grid-cols-1 gap-1 py-5 sm:grid-cols-[12rem_1fr] sm:gap-6">
+                <dt class="font-mono text-xs tracking-wider text-muted-foreground uppercase">{spec.dt}</dt>
+                <dd class="text-lg font-medium tracking-tight md:text-xl">{spec.dd}</dd>
+              </div>
+            </div>
+          ))}
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALLOY TICKER MARQUEE -->
+  <AlloyMarquee />
+
+  <!-- SECTION 7: INDUSTRIES SERVED -->
+  <section id="industries" aria-label="Industries served" class="relative py-28 md:py-40">
+    <div class="mx-auto grid max-w-[1400px] gap-14 px-5 md:grid-cols-[1fr_1fr] md:gap-20 md:px-10">
+      <div class="md:sticky md:top-24 md:self-start">
+        <div data-reveal style="opacity:0;transform:translateY(48px)">
+          <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+            <span class="text-molten">06</span> — Industries
+          </p>
+          <h2 class="mt-4 text-4xl leading-[0.95] font-semibold tracking-[-0.04em] md:text-6xl">
+            Parts that keep industry moving.
+          </h2>
+          <a class="group inline-flex min-h-11 items-center gap-3 text-base font-medium text-foreground transition-colors hover:text-molten mt-8" href="/industries">
+            <span class="relative">
+              Explore industries
+              <span class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-100 bg-current transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:origin-left group-hover:scale-x-0"></span>
+            </span>
+            <span class="flex size-9 items-center justify-center rounded-full border border-foreground/20 transition-all duration-500 group-hover:border-molten group-hover:bg-molten group-hover:text-background">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4 transition-transform duration-500 group-hover:translate-x-0.5" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="relative mt-10 aspect-[4/3] overflow-hidden rounded-md bg-card">
+          <div class="industry-parallax-img absolute -inset-y-[15%] inset-x-0 will-change-transform" style="transform:translateY(-15%)">
+            <img
+              alt="Investment cast pump impeller"
+              loading="lazy"
+              decoding="async"
+              class="object-cover w-full h-full"
+              src="/images/impeller.png"
+            />
+          </div>
+        </div>
+      </div>
+
+      <ul class="border-t border-border">
+        {homeIndustries.map((ind, s) => (
+          <li class="border-b border-border">
+            <div data-reveal data-delay={(s * 0.03).toFixed(2)} style="opacity:0;transform:translateY(36px)">
+              <a href="/industries" class="group flex items-baseline gap-5 py-7 md:py-9 transition-colors">
+                <span class="font-mono text-xs text-molten">{ind.no}</span>
+                <div class="flex-1">
+                  <h3 class="text-2xl font-semibold tracking-[-0.03em] transition-transform duration-500 group-hover:translate-x-2 md:text-4xl text-foreground">
+                    {ind.name}
+                  </h3>
+                  <p class="mt-2 text-sm text-foreground/60 md:text-base" data-text-reveal="words">
+                    {ind.desc}
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- SECTION 8: CONTACT SECTION -->
+  <ContactSection
+    tagNumber="07"
+    tagLabel="Start a programme"
+    title="Send us a drawing."
+    subtitle="Share your part, material and volumes. Our engineering team reviews every enquiry for castability and responds with a feasibility note and quotation."
+  />
+</MainLayout>
+
+<script>
+  import { splitIntoWords, updateWordsProgress } from '../scripts/text-reveal';
+
+  function setupHomeScrollEffects() {
+    const resultSec = document.querySelector<HTMLElement>('.result-section');
+    const resultFrame = document.querySelector<HTMLElement>('.result-frame');
+    const resultInner = document.querySelector<HTMLElement>('.result-img-inner');
+    const resultHeading = document.querySelector<HTMLElement>('.result-heading-block');
+    const resultSpecs = document.querySelector<HTMLElement>('.result-specs');
+
+    const horizontalSec = document.querySelector<HTMLElement>('.horizontal-showcase-section');
+    const horizontalTrack = document.querySelector<HTMLElement>('.horizontal-track');
+
+    const industriesSec = document.getElementById('industries');
+    const industryParallaxImg = document.querySelector<HTMLElement>('.industry-parallax-img');
+
+    if (resultSpecs) {
+      const specPs = resultSpecs.querySelectorAll<HTMLElement>('[data-text-reveal="words"]');
+      specPs.forEach((p) => splitIntoWords(p));
+    }
+
+    const onScroll = () => {
+      // 1. Result section
+      if (resultSec && resultFrame) {
+        const rect = resultSec.getBoundingClientRect();
+        const total = rect.height - window.innerHeight;
+        if (total > 0) {
+          const l = Math.max(0, Math.min(1, -rect.top / total));
+
+          // Frame dimensions expand from 0 to 0.5
+          const pFrame = Math.min(1, l / 0.5);
+          const w = 62 + pFrame * (100 - 62);
+          const h = 48 + pFrame * (100 - 48);
+          const r = 20 - pFrame * 20;
+          resultFrame.style.width = `${w.toFixed(1)}%`;
+          resultFrame.style.height = `${h.toFixed(1)}%`;
+          resultFrame.style.borderRadius = `${r.toFixed(1)}px`;
+
+          // Inner image: scale 1.25 -> 1.0, rotate -6deg -> +4deg
+          if (resultInner) {
+            const scale = 1.25 - l * 0.25;
+            const rotate = -6 + l * 10;
+            resultInner.style.transform = `scale(${scale.toFixed(3)}) rotate(${rotate.toFixed(2)}deg)`;
+          }
+
+          // Heading: fade out 0 -> 0.25, translate up 0% -> -120% 0 -> 0.3
+          if (resultHeading) {
+            const pHeadFade = Math.min(1, l / 0.25);
+            const pHeadY = Math.min(1, l / 0.3);
+            resultHeading.style.opacity = `${(1 - pHeadFade).toFixed(2)}`;
+            resultHeading.style.transform = `translateY(${(-pHeadY * 120).toFixed(1)}%)`;
+          }
+
+          // Specs: fade in 0.55 -> 0.72, translate up 60px -> 0px 0.55 -> 0.8
+          if (resultSpecs) {
+            let opacity = 0;
+            let y = 60;
+            if (l >= 0.72) {
+              opacity = 1;
+            } else if (l > 0.55) {
+              opacity = (l - 0.55) / (0.72 - 0.55);
+            }
+            if (l >= 0.8) {
+              y = 0;
+            } else if (l > 0.55) {
+              y = 60 - ((l - 0.55) / (0.8 - 0.55)) * 60;
+            }
+            resultSpecs.style.opacity = `${opacity.toFixed(2)}`;
+            resultSpecs.style.transform = `translateY(${y.toFixed(1)}px)`;
+
+            // Word reveal for the 3 specs
+            const specP = Math.max(0, Math.min(1, (l - 0.58) / 0.25));
+            const specPs = resultSpecs.querySelectorAll<HTMLElement>('[data-text-reveal="words"]');
+            specPs.forEach((p) => {
+              const words = p.querySelectorAll<HTMLElement>('.reveal-word');
+              updateWordsProgress(words, specP);
+            });
+          }
+        }
+      }
+
+      // 2. Components horizontal scroll
+      if (horizontalSec && horizontalTrack) {
+        const rect = horizontalSec.getBoundingClientRect();
+        const total = rect.height - window.innerHeight;
+        if (total > 0) {
+          const l = Math.max(0, Math.min(1, -rect.top / total));
+          const maxShift = Math.max(0, horizontalTrack.scrollWidth - window.innerWidth + 40);
+          horizontalTrack.style.transform = `translateX(-${(l * maxShift).toFixed(1)}px)`;
+        }
+      }
+
+      // 3. Industries image parallax
+      if (industriesSec && industryParallaxImg) {
+        const rect = industriesSec.getBoundingClientRect();
+        const total = rect.height + window.innerHeight;
+        // Progress from when top hits bottom of screen to when bottom leaves top
+        const progress = Math.max(0, Math.min(1, (window.innerHeight - rect.top) / total));
+        const y = -15 + progress * 30; // -15% to +15%
+        industryParallaxImg.style.transform = `translateY(${y.toFixed(1)}%)`;
+      }
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  setupHomeScrollEffects();
+  document.addEventListener('astro:page-load', setupHomeScrollEffects);
+</script>
+
+<style>
+  @keyframes scrollPill {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(200%); }
+  }
+  .animate-scroll-pill {
+    animation: scrollPill 2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  }
+</style>

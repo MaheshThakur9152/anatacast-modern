@@ -1,0 +1,162 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import ProductCatalog from '../components/products/ProductCatalog.astro';
+---
+
+<MainLayout
+  title="Products — Ananta Cast"
+  description="Valve bodies, pump impellers, levers, brackets, fittings and machined assemblies — investment cast and CNC finished to drawing."
+  currentPath="/products"
+>
+  <main>
+    <!-- SECTION 1: PRODUCTS HERO -->
+    <section class="relative h-[125svh]">
+      <div class="sticky top-0 h-svh overflow-hidden">
+        <div class="absolute inset-0 hero-clip-reveal">
+          <div class="absolute inset-0 will-change-transform" style="transform:scale(1.05)">
+            <img
+              alt="Precision machined stainless steel valve body"
+              decoding="async"
+              class="object-cover w-full h-full"
+              src="/images/finished-part.png"
+            />
+          </div>
+        </div>
+        <div class="absolute inset-0 bg-background" style="opacity:0.5"></div>
+        <div class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-background to-transparent"></div>
+
+        <div class="relative mx-auto flex h-full max-w-[1400px] flex-col justify-end px-5 pb-12 md:px-10 md:pb-16">
+          <p class="mb-6 font-mono text-[0.7rem] tracking-[0.2em] text-foreground/70 uppercase md:text-xs">
+            <span class="mr-2 inline-block size-1.5 translate-y-[-1px] rounded-full bg-molten align-middle"></span>
+            Products
+          </p>
+          <h1 class="text-[12.5vw] leading-[0.9] font-semibold tracking-[-0.045em] md:text-[8vw] xl:text-[7.5rem]">
+            <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-1">Built to</span></span>
+            <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-2">your drawing.</span></span>
+          </h1>
+          <p class="mt-8 max-w-lg text-base leading-relaxed text-foreground/75 md:text-lg" data-text-reveal="words">
+            From a 20-gram lever to a 40-kilogram valve body — explore the part families we cast, machine and inspect every day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: PRODUCT CATALOGUE WITH INTERACTIVE FILTERS -->
+    <ProductCatalog />
+
+    <!-- SECTION 3: READY TO FIT (RESULT SECTION) -->
+    <section aria-label="Finished component" class="relative h-[280svh] result-section">
+      <div class="sticky top-0 flex h-svh items-center justify-center overflow-hidden">
+        <div class="absolute inset-x-0 top-[12%] z-10 px-5 text-center">
+          <p class="font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase">
+            <span class="text-molten">03</span> — The result
+          </p>
+          <h2 class="mx-auto mt-4 max-w-3xl text-4xl leading-[0.95] font-semibold tracking-[-0.04em] text-balance md:text-7xl">
+            Ready to fit. Not ready to machine.
+          </h2>
+        </div>
+
+        <div class="relative overflow-hidden bg-black will-change-[width,height] result-frame" style="width:62%;height:48%;border-radius:20px">
+          <div class="absolute inset-0 result-img-inner" style="transform:scale(1.25) rotate(-6deg)">
+            <img
+              alt="Precision machined stainless steel investment cast valve body"
+              loading="lazy"
+              decoding="async"
+              class="object-contain md:object-cover w-full h-full"
+              src="/images/finished-part.png"
+            />
+          </div>
+        </div>
+
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background via-background/70 to-transparent px-5 pt-24 pb-10 md:px-10 md:pb-14 result-specs">
+          <div class="mx-auto grid max-w-[1400px] gap-8 md:grid-cols-3">
+            <div class="border-t border-foreground/20 pt-4">
+              <h3 class="text-lg font-semibold tracking-tight">Near-net shape</h3>
+              <p class="mt-2 text-sm leading-relaxed text-foreground/70" data-text-reveal="words" data-custom-scroll="true">
+                Investment casting gets within millimetres of final form, cutting material and machining time.
+              </p>
+            </div>
+            <div class="border-t border-foreground/20 pt-4">
+              <h3 class="text-lg font-semibold tracking-tight">Machined in-house</h3>
+              <p class="mt-2 text-sm leading-relaxed text-foreground/70" data-text-reveal="words" data-custom-scroll="true">
+                Critical faces, bores and threads finished on our own CNC cells to drawing tolerance.
+              </p>
+            </div>
+            <div class="border-t border-foreground/20 pt-4">
+              <h3 class="text-lg font-semibold tracking-tight">Documented</h3>
+              <p class="mt-2 text-sm leading-relaxed text-foreground/70" data-text-reveal="words" data-custom-scroll="true">
+                Material certificates and dimensional reports travel with every dispatch.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: START A PROJECT CTA -->
+    <section aria-label="Start a project" class="px-3 py-20 md:px-6 md:py-28">
+      <div class="relative mx-auto max-w-[1500px] overflow-hidden bg-molten px-6 py-20 text-background md:px-14 md:py-28 rounded-[36px] md:rounded-[48px]">
+        <div class="flex flex-col gap-10 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="font-mono text-xs tracking-[0.2em] uppercase opacity-70">Start a programme</p>
+            <h2 class="mt-4 max-w-3xl text-5xl leading-[0.92] font-semibold tracking-[-0.045em] text-balance md:text-8xl">
+              Have a part in mind?
+            </h2>
+          </div>
+          <a class="group inline-flex h-14 shrink-0 items-center justify-center gap-3 self-start rounded-full bg-background px-8 text-base font-medium text-foreground transition-transform hover:scale-[1.03] md:self-auto" href="/contact">
+            Request a quote
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</MainLayout>
+
+<script>
+  import { splitIntoWords, updateWordsProgress } from '../scripts/text-reveal';
+
+  function setupProductPageEffects() {
+    const resultSec = document.querySelector<HTMLElement>('.result-section');
+    const resultFrame = document.querySelector<HTMLElement>('.result-frame');
+    const resultSpecs = document.querySelector<HTMLElement>('.result-specs');
+
+    if (resultSpecs) {
+      const specPs = resultSpecs.querySelectorAll<HTMLElement>('[data-text-reveal="words"]');
+      specPs.forEach((p) => splitIntoWords(p));
+    }
+
+    const onScroll = () => {
+      if (resultSec && resultFrame && resultSpecs) {
+        const rect = resultSec.getBoundingClientRect();
+        const total = rect.height - window.innerHeight;
+        if (total > 0) {
+          const p = Math.max(0, Math.min(1, -rect.top / total));
+          const w = 62 + p * 38;
+          const h = 48 + p * 52;
+          const r = Math.max(0, 20 - p * 20);
+          resultFrame.style.width = `${w}%`;
+          resultFrame.style.height = `${h}%`;
+          resultFrame.style.borderRadius = `${r}px`;
+          resultSpecs.style.opacity = `${p > 0.5 ? (p - 0.5) * 2 : 0}`;
+
+          const specP = Math.max(0, Math.min(1, (p - 0.55) / 0.25));
+          const specPs = resultSpecs.querySelectorAll<HTMLElement>('[data-text-reveal="words"]');
+          specPs.forEach((pEl) => {
+            const words = pEl.querySelectorAll<HTMLElement>('.reveal-word');
+            updateWordsProgress(words, specP);
+          });
+        }
+      }
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  setupProductPageEffects();
+  document.addEventListener('astro:page-load', setupProductPageEffects);
+</script>

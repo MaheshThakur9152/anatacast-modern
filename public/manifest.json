@@ -1,0 +1,13 @@
+{
+  "name": "Ananta Cast — From Casting to Finished Product",
+  "short_name": "Ananta Cast",
+  "description": "Precision investment castings and in-house CNC machining — from wax pattern to finished component.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121110",
+  "theme_color": "#121110",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/apple-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

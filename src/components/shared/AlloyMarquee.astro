@@ -1,0 +1,100 @@
+---
+const solidAlloys = [
+  'SS 304',
+  'SS 316',
+  'CF8',
+  'CF8M',
+  'CF3M',
+  'CA15',
+  '17-4 PH',
+  'Duplex 2205',
+  'Super Duplex',
+];
+
+const strokedAlloys = [
+  'WCB',
+  'LCB',
+  'AISI 4140',
+  'AISI 8620',
+  'EN 8',
+  'EN 19',
+  'SS 410',
+  'SS 420',
+  'Tool steels',
+];
+---
+
+<div>
+  <p class="sr-only">
+    Alloys: SS 304, SS 316, CF8, CF8M, CF3M, CA15, 17-4 PH, Duplex 2205, Super Duplex, WCB, LCB, AISI 4140, AISI 8620, EN 8, EN 19, SS 410, SS 420, Tool steels
+  </p>
+
+  <!-- Track 1: Solid fill -->
+  <div class="overflow-hidden py-1 select-none pointer-events-none" aria-hidden="true">
+    <div class="flex w-max animate-marquee will-change-transform">
+      <div class="flex shrink-0 items-center gap-8 whitespace-nowrap md:gap-14 pr-8 md:pr-14">
+        {solidAlloys.map((alloy) => (
+          <span class="text-6xl font-semibold tracking-[-0.04em] md:text-[8rem] text-foreground">
+            {alloy}
+            <span class="ml-8 text-molten md:ml-14">/</span>
+          </span>
+        ))}
+      </div>
+      <div class="flex shrink-0 items-center gap-8 whitespace-nowrap md:gap-14 pr-8 md:pr-14" aria-hidden="true">
+        {solidAlloys.map((alloy) => (
+          <span class="text-6xl font-semibold tracking-[-0.04em] md:text-[8rem] text-foreground">
+            {alloy}
+            <span class="ml-8 text-molten md:ml-14">/</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Track 2: Stroked outline -->
+  <div class="overflow-hidden py-1 select-none pointer-events-none" aria-hidden="true">
+    <div class="flex w-max animate-marquee-reverse will-change-transform">
+      <div class="flex shrink-0 items-center gap-8 whitespace-nowrap md:gap-14 pr-8 md:pr-14">
+        {strokedAlloys.map((alloy) => (
+          <span class="text-6xl font-semibold tracking-[-0.04em] md:text-[8rem] text-transparent [-webkit-text-stroke:1px_var(--steel)]">
+            {alloy}
+            <span class="ml-8 text-molten md:ml-14">/</span>
+          </span>
+        ))}
+      </div>
+      <div class="flex shrink-0 items-center gap-8 whitespace-nowrap md:gap-14 pr-8 md:pr-14" aria-hidden="true">
+        {strokedAlloys.map((alloy) => (
+          <span class="text-6xl font-semibold tracking-[-0.04em] md:text-[8rem] text-transparent [-webkit-text-stroke:1px_var(--steel)]">
+            {alloy}
+            <span class="ml-8 text-molten md:ml-14">/</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  @keyframes marquee {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+  @keyframes marquee-reverse {
+    from {
+      transform: translate3d(-50%, 0, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .animate-marquee {
+    animation: marquee 14s linear infinite;
+  }
+  .animate-marquee-reverse {
+    animation: marquee-reverse 14s linear infinite;
+  }
+</style>

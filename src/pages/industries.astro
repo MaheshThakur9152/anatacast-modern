@@ -1,0 +1,77 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import IndustriesAccordion from '../components/industries/IndustriesAccordion.astro';
+import Statement from '../components/shared/Statement.astro';
+---
+
+<MainLayout
+  title="Industries — Ananta Cast"
+  description="Investment cast and machined components for pumps and valves, oil and gas, automotive, agriculture, food and pharma, and general engineering."
+  currentPath="/industries"
+>
+  <main>
+    <!-- SECTION 1: INDUSTRIES HERO -->
+    <section class="relative h-[125svh]">
+      <div class="sticky top-0 h-svh overflow-hidden">
+        <div class="absolute inset-0 hero-clip-reveal">
+          <div class="absolute inset-0 will-change-transform" style="transform:scale(1.05)">
+            <img
+              alt="Investment cast stainless steel pump impeller"
+              decoding="async"
+              class="object-cover w-full h-full"
+              src="/images/impeller.png"
+            />
+          </div>
+        </div>
+        <div class="absolute inset-0 bg-background" style="opacity:0.5"></div>
+        <div class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-background to-transparent"></div>
+
+        <div class="relative mx-auto flex h-full max-w-[1400px] flex-col justify-end px-5 pb-12 md:px-10 md:pb-16">
+          <p class="mb-6 font-mono text-[0.7rem] tracking-[0.2em] text-foreground/70 uppercase md:text-xs">
+            <span class="mr-2 inline-block size-1.5 translate-y-[-1px] rounded-full bg-molten align-middle"></span>
+            Industries
+          </p>
+          <h1 class="text-[12.5vw] leading-[0.9] font-semibold tracking-[-0.045em] md:text-[8vw] xl:text-[7.5rem]">
+            <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-1">Parts that keep</span></span>
+            <span class="block overflow-hidden pb-[0.08em]"><span class="block animate-slide-up-2"><span class="text-molten">industry moving.</span></span></span>
+          </h1>
+          <p class="mt-8 max-w-lg text-base leading-relaxed text-foreground/75 md:text-lg" data-text-reveal="words">
+            Pressure-retaining, rotating and structural components for the sectors where failure is not an option.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: INTERACTIVE INDUSTRIES ACCORDION -->
+    <IndustriesAccordion />
+
+    <!-- SECTION 3: DIFFERENT SECTORS, ONE STANDARD -->
+    <Statement
+      index="—"
+      label="Different sectors, one standard"
+      copy="Whether a part seals a pipeline or shifts a gear, it is cast, machined and measured to the same discipline — and shipped with the reports to prove it."
+      moltenWords={[]}
+    />
+
+    <!-- SECTION 4: START A PROJECT CTA -->
+    <section aria-label="Start a project" class="px-3 py-20 md:px-6 md:py-28">
+      <div class="relative mx-auto max-w-[1500px] overflow-hidden bg-molten px-6 py-20 text-background md:px-14 md:py-28 rounded-[36px] md:rounded-[48px]">
+        <div class="flex flex-col gap-10 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="font-mono text-xs tracking-[0.2em] uppercase opacity-70">Start a programme</p>
+            <h2 class="mt-4 max-w-3xl text-5xl leading-[0.92] font-semibold tracking-[-0.045em] text-balance md:text-8xl">
+              Send us a drawing.
+            </h2>
+          </div>
+          <a class="group inline-flex h-14 shrink-0 items-center justify-center gap-3 self-start rounded-full bg-background px-8 text-base font-medium text-foreground transition-transform hover:scale-[1.03] md:self-auto" href="/contact">
+            Request a quote
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</MainLayout>

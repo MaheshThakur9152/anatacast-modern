@@ -1,0 +1,72 @@
+---
+import ScrollProgress from '../components/layout/ScrollProgress.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  currentPath?: string;
+}
+
+const {
+  title = 'Ananta Cast — From Casting to Finished Product',
+  description = 'Ananta Cast delivers precision investment castings and in-house CNC machining — one partner from wax pattern to inspected, ready-to-fit component.',
+  currentPath = Astro.url.pathname,
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="J3wvYq_variable _2Nw1lG_variable bg-background">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#121110" />
+    <meta name="color-scheme" content="dark" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-icon.png" />
+    <link rel="preload" href="/fonts/4a0b7dd978568ff2-s.p.2q0khlq77_eaw.woff2" as="font" crossorigin="" type="font/woff2" />
+    <link rel="preload" href="/fonts/53897e768d329f66-s.p.269kn9uafm0ti.woff2" as="font" crossorigin="" type="font/woff2" />
+  </head>
+  <body class="grain antialiased bg-background text-foreground selection:bg-molten selection:text-background min-h-screen">
+    <div hidden></div>
+    <ScrollProgress />
+    <Header currentPath={currentPath} />
+    <slot />
+    <Footer />
+
+    <script>
+      import '../scripts/text-reveal';
+
+      function setupScrollReveals() {
+        const reveals = document.querySelectorAll<HTMLElement>('[data-reveal]');
+        if (!reveals.length) return;
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const el = entry.target as HTMLElement;
+              const delay = el.getAttribute('data-delay') || '0';
+              el.style.transition = `opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1) ${delay}s, transform 0.9s cubic-bezier(0.22, 1, 0.36, 1) ${delay}s`;
+              el.style.opacity = '1';
+              el.style.transform = 'translateY(0) scale(1) rotate(0deg)';
+              observer.unobserve(el);
+            }
+          });
+        }, {
+          threshold: 0.05,
+          rootMargin: '0px 0px -12% 0px'
+        });
+
+        reveals.forEach((el) => observer.observe(el));
+      }
+
+      setupScrollReveals();
+      document.addEventListener('astro:page-load', setupScrollReveals);
+    </script>
+  </body>
+</html>

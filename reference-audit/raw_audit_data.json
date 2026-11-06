@@ -1,0 +1,5155 @@
+{
+  "home": {
+    "title": "Ananta Cast — From Casting to Finished Product",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "next-size-adjust": "",
+      "theme-color": "#121110",
+      "color-scheme": "dark",
+      "description": "Ananta Cast delivers precision investment castings and in-house CNC machining — one partner from wax pattern to inspected, ready-to-fit component.",
+      "generator": "v0.app"
+    },
+    "sections": [
+      {
+        "tag": "header",
+        "id": "",
+        "classes": "fixed inset-x-0 top-0 z-50 transition-colors duration-500 bg-transparent",
+        "rect": {
+          "width": 1440,
+          "height": 64,
+          "top": 0
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "position": "fixed",
+          "backdropFilter": "none",
+          "zIndex": "50"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 0,
+        "id": "top",
+        "classes": "relative h-[140svh]",
+        "heading": "From casting to finished product.",
+        "rect": {
+          "width": 1440,
+          "height": 1260,
+          "top": 0
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 1,
+        "id": "",
+        "classes": "relative px-5 py-32 md:px-10 md:py-48",
+        "heading": null,
+        "rect": {
+          "width": 1440,
+          "height": 1096.375,
+          "top": 1260
+        },
+        "styles": {
+          "padding": "192px 40px 192px 40px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 2,
+        "id": "process",
+        "classes": "relative h-[600svh]",
+        "heading": "Six stages. One accountable partner.",
+        "rect": {
+          "width": 1440,
+          "height": 5400,
+          "top": 2356.375
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 3,
+        "id": "",
+        "classes": "relative h-[280svh]",
+        "heading": "Ready to fit. Not ready to machine.",
+        "rect": {
+          "width": 1440,
+          "height": 2520,
+          "top": 7756.375
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 4,
+        "id": "",
+        "classes": "relative h-[320svh]",
+        "heading": "What leaves our floor.",
+        "rect": {
+          "width": 1440,
+          "height": 2880,
+          "top": 10276.375
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 5,
+        "id": "capabilities",
+        "classes": "relative py-28 md:py-44",
+        "heading": "Engineered within microns.",
+        "rect": {
+          "width": 1440,
+          "height": 1268,
+          "top": 13156.375
+        },
+        "styles": {
+          "padding": "176px 0px 176px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 6,
+        "id": "industries",
+        "classes": "relative py-28 md:py-40",
+        "heading": "Parts that keep industry moving.",
+        "rect": {
+          "width": 1440,
+          "height": 1191,
+          "top": 14424.375
+        },
+        "styles": {
+          "padding": "160px 0px 160px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 7,
+        "id": "contact",
+        "classes": "relative py-28 md:py-40",
+        "heading": "Send us a drawing.",
+        "rect": {
+          "width": 1440,
+          "height": 855.1875,
+          "top": 15615.375
+        },
+        "styles": {
+          "padding": "160px 0px 160px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "footer",
+        "classes": "relative overflow-hidden border-t border-border pt-16",
+        "rect": {
+          "width": 1440,
+          "height": 569.671875,
+          "top": 16470.5625
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px 0px 0px 0px"
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "alt": "Molten stainless steel being poured into ceramic shell moulds",
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "displayWidth": 1555.2001953125,
+        "displayHeight": 972,
+        "classes": "object-cover object-[35%_center]",
+        "objectFit": "cover",
+        "objectPosition": "35% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "alt": "Wax pattern tree assembled on a central sprue",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 918.719970703125,
+        "displayHeight": 1044,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/ceramic-shell.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/ceramic-shell.png",
+        "alt": "Wax tree coated with white ceramic shell",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "alt": "Molten metal pouring into ceramic shells",
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "alt": "Raw investment cast stainless steel impeller",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "alt": "CNC machine cutting a cast component",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "alt": "CMM probe measuring a machined part",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "currentSrc": "",
+        "alt": "Precision machined stainless steel investment cast valve body",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "displayWidth": 1166.327880859375,
+        "displayHeight": 653.6953125,
+        "classes": "object-contain md:object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "currentSrc": "",
+        "alt": "Valve bodies",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "displayWidth": 489.59375,
+        "displayHeight": 522,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "alt": "Pump impellers",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 489.59375,
+        "displayHeight": 522,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/bracket.png",
+        "currentSrc": "",
+        "alt": "Levers & brackets",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "displayWidth": 489.59375,
+        "displayHeight": 522,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "alt": "Machined assemblies",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 489.59375,
+        "displayHeight": 522,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "alt": "Wax-to-part prototypes",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 489.59375,
+        "displayHeight": 522,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "alt": "Investment cast pump impeller",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 620,
+        "displayHeight": 604.5,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "fonts": [],
+    "interactiveElements": [],
+    "colors": {},
+    "typography": {},
+    "buttons": [
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "classes": "-mr-2 flex size-11 items-center justify-center lg:hidden",
+        "ariaLabel": "Open menu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "Your name",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.8125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "Company",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.828125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "you@company.com",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.8125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "+91",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.828125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "e.g. CF8M, WCB",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.8125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "e.g. 5,000 pcs",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.828125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "textarea",
+        "text": "Part description, weight, tolerances, machining requirements…",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors resize-none",
+        "ariaLabel": null,
+        "rect": {
+          "width": 667.640625,
+          "height": 121
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Request a quote",
+        "href": null,
+        "classes": "group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-molten px-8 text-base font-medium text-background transition-colors hover:bg-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 215,
+          "height": 56
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      }
+    ],
+    "links": [
+      {
+        "tag": "a",
+        "text": "ANANTA CAST",
+        "href": "/",
+        "classes": "flex min-h-11 items-center",
+        "ariaLabel": "Ananta Cast home",
+        "rect": {
+          "width": 172.703125,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 37,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 49,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 56,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 60,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "hidden h-10 items-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-molten lg:inline-flex",
+        "ariaLabel": null,
+        "rect": {
+          "width": 149,
+          "height": 40
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(93.0632 0.45988 3.01539)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "flex h-12 items-center justify-center rounded-full bg-molten font-medium text-background",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Our story",
+        "href": "/about",
+        "classes": "group inline-flex min-h-11 items-center gap-3 text-base font-medium text-foreground transition-colors hover:text-molten mt-12",
+        "ariaLabel": null,
+        "rect": {
+          "width": 116,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "View catalogue",
+        "href": "/products",
+        "classes": "flex size-11 items-center justify-center rounded-full border border-foreground/20 transition-colors hover:border-molten hover:bg-molten hover:text-background md:h-11 md:w-auto md:gap-2 md:px-5 md:text-sm",
+        "ariaLabel": "View all products",
+        "rect": {
+          "width": 164,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "All capabilities",
+        "href": "/capabilities",
+        "classes": "group inline-flex min-h-11 items-center gap-3 text-base font-medium text-foreground transition-colors hover:text-molten mt-8",
+        "ariaLabel": null,
+        "rect": {
+          "width": 156,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Explore industries",
+        "href": "/industries",
+        "classes": "group inline-flex min-h-11 items-center gap-3 text-base font-medium text-foreground transition-colors hover:text-molten mt-8",
+        "ariaLabel": null,
+        "rect": {
+          "width": 182,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "bhavin.m@anantacast.com",
+        "href": "mailto:bhavin.m@anantacast.com",
+        "classes": "group mt-10 inline-flex min-h-11 items-center gap-2 text-lg font-medium underline decoration-foreground/30 underline-offset-8 transition-colors hover:text-molten hover:decoration-molten",
+        "ariaLabel": null,
+        "rect": {
+          "width": 250,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "cssVars": {}
+  },
+  "about": {
+    "title": "About — Ananta Cast",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "next-size-adjust": "",
+      "theme-color": "#121110",
+      "color-scheme": "dark",
+      "description": "Ananta Cast is an investment casting and machining company delivering ferrous components from casting to finished product.",
+      "generator": "v0.app"
+    },
+    "sections": [
+      {
+        "tag": "header",
+        "id": "",
+        "classes": "fixed inset-x-0 top-0 z-50 transition-colors duration-500 bg-transparent",
+        "rect": {
+          "width": 1440,
+          "height": 64,
+          "top": 0
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "position": "fixed",
+          "backdropFilter": "none",
+          "zIndex": "50"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 0,
+        "id": "",
+        "classes": "relative h-[125svh]",
+        "heading": "Foundry roots. Machinist precision.",
+        "rect": {
+          "width": 1440,
+          "height": 1125,
+          "top": 0
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 1,
+        "id": "",
+        "classes": "relative px-5 py-32 md:px-10 md:py-48",
+        "heading": null,
+        "rect": {
+          "width": 1440,
+          "height": 923.75,
+          "top": 1125
+        },
+        "styles": {
+          "padding": "192px 40px 192px 40px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 2,
+        "id": "",
+        "classes": "relative overflow-hidden py-28 md:py-44",
+        "heading": "Ananta means endless.",
+        "rect": {
+          "width": 1440,
+          "height": 725.546875,
+          "top": 2048.75
+        },
+        "styles": {
+          "padding": "176px 0px 176px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 3,
+        "id": "",
+        "classes": "relative h-[150svh]",
+        "heading": null,
+        "rect": {
+          "width": 1440,
+          "height": 1350,
+          "top": 2774.296875
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 4,
+        "id": "",
+        "classes": "py-20 md:py-32",
+        "heading": "One roof",
+        "rect": {
+          "width": 1440,
+          "height": 610,
+          "top": 4124.296875
+        },
+        "styles": {
+          "padding": "128px 0px 128px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 5,
+        "id": "",
+        "classes": "px-3 py-20 md:px-6 md:py-28",
+        "heading": "Let's build something that lasts.",
+        "rect": {
+          "width": 1440,
+          "height": 744.9375,
+          "top": 4734.296875
+        },
+        "styles": {
+          "padding": "112px 24px 112px 24px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "footer",
+        "classes": "relative overflow-hidden border-t border-border pt-16",
+        "rect": {
+          "width": 1440,
+          "height": 569.671875,
+          "top": 5479.234375
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px 0px 0px 0px"
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "alt": "Molten steel being poured into ceramic investment moulds",
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "displayWidth": 1512,
+        "displayHeight": 945,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/ceramic-shell.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/ceramic-shell.png",
+        "alt": "Ceramic shell moulds drying on racks",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 1872,
+        "displayHeight": 1170,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "fonts": [],
+    "interactiveElements": [],
+    "colors": {},
+    "typography": {},
+    "buttons": [
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "classes": "-mr-2 flex size-11 items-center justify-center lg:hidden",
+        "ariaLabel": "Open menu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "links": [
+      {
+        "tag": "a",
+        "text": "ANANTA CAST",
+        "href": "/",
+        "classes": "flex min-h-11 items-center",
+        "ariaLabel": "Ananta Cast home",
+        "rect": {
+          "width": 172.703125,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 37,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 49,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 56,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 60,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "hidden h-10 items-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-molten lg:inline-flex",
+        "ariaLabel": null,
+        "rect": {
+          "width": 149,
+          "height": 40
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(93.0632 0.45988 3.01539)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "flex h-12 items-center justify-center rounded-full bg-molten font-medium text-background",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "group inline-flex h-14 shrink-0 items-center justify-center gap-3 self-start rounded-full bg-background px-8 text-base font-medium text-foreground transition-transform hover:scale-[1.03] md:self-auto",
+        "ariaLabel": null,
+        "rect": {
+          "width": 176.300048828125,
+          "height": 45.919921875
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "lab(2.74981 0.342108 0.628802)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "cssVars": {}
+  },
+  "capabilities": {
+    "title": "Capabilities — Ananta Cast",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "next-size-adjust": "",
+      "theme-color": "#121110",
+      "color-scheme": "dark",
+      "description": "Investment casting, CNC machining, heat treatment and testing — ferrous castings from 0.02 to 40 kg in stainless, duplex, carbon and alloy steels.",
+      "generator": "v0.app"
+    },
+    "sections": [
+      {
+        "tag": "header",
+        "id": "",
+        "classes": "fixed inset-x-0 top-0 z-50 transition-colors duration-500 bg-transparent",
+        "rect": {
+          "width": 1440,
+          "height": 64,
+          "top": 0
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "position": "fixed",
+          "backdropFilter": "none",
+          "zIndex": "50"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 0,
+        "id": "",
+        "classes": "relative h-[125svh]",
+        "heading": "Four disciplines. One floor.",
+        "rect": {
+          "width": 1440,
+          "height": 1125,
+          "top": 0
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 1,
+        "id": "",
+        "classes": "py-24 md:py-36",
+        "heading": "What we can hold.",
+        "rect": {
+          "width": 1440,
+          "height": 772,
+          "top": 1125
+        },
+        "styles": {
+          "padding": "144px 0px 144px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "div",
+        "index": 2,
+        "id": "",
+        "classes": "mx-auto max-w-[1400px] px-5 pb-10 md:px-10",
+        "heading": null,
+        "rect": {
+          "width": 1400,
+          "height": 56,
+          "top": 1897
+        },
+        "styles": {
+          "padding": "0px 40px 40px 40px",
+          "margin": "0px 20px 0px 20px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 3,
+        "id": "",
+        "classes": "relative",
+        "heading": "Investment casting",
+        "rect": {
+          "width": 1440,
+          "height": 3600,
+          "top": 1953
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 4,
+        "id": "",
+        "classes": "py-28 md:py-40",
+        "heading": "The right alloy for the job.",
+        "rect": {
+          "width": 1440,
+          "height": 1072,
+          "top": 5553
+        },
+        "styles": {
+          "padding": "160px 0px 160px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "div",
+        "index": 5,
+        "id": "",
+        "classes": "pb-10",
+        "heading": null,
+        "rect": {
+          "width": 1440,
+          "height": 312,
+          "top": 6625
+        },
+        "styles": {
+          "padding": "0px 0px 40px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 6,
+        "id": "",
+        "classes": "px-3 py-20 md:px-6 md:py-28",
+        "heading": "Send us a drawing.",
+        "rect": {
+          "width": 1440,
+          "height": 568.3125,
+          "top": 6937
+        },
+        "styles": {
+          "padding": "112px 24px 112px 24px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "footer",
+        "classes": "relative overflow-hidden border-t border-border pt-16",
+        "rect": {
+          "width": 1440,
+          "height": 569.671875,
+          "top": 7505.3125
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px 0px 0px 0px"
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "alt": "CNC machine cutting an investment cast component",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 1512,
+        "displayHeight": 945,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "alt": "",
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "displayWidth": 781.875,
+        "displayHeight": 828,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "alt": "",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 868.75,
+        "displayHeight": 920,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "alt": "",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 868.75,
+        "displayHeight": 920,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "currentSrc": "",
+        "alt": "",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "displayWidth": 868.75,
+        "displayHeight": 920,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "fonts": [],
+    "interactiveElements": [],
+    "colors": {},
+    "typography": {},
+    "buttons": [
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "classes": "-mr-2 flex size-11 items-center justify-center lg:hidden",
+        "ariaLabel": "Open menu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "links": [
+      {
+        "tag": "a",
+        "text": "ANANTA CAST",
+        "href": "/",
+        "classes": "flex min-h-11 items-center",
+        "ariaLabel": "Ananta Cast home",
+        "rect": {
+          "width": 172.703125,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 37,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 49,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 56,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 60,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "hidden h-10 items-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-molten lg:inline-flex",
+        "ariaLabel": null,
+        "rect": {
+          "width": 149,
+          "height": 40
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(93.0632 0.45988 3.01539)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "flex h-12 items-center justify-center rounded-full bg-molten font-medium text-background",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "group inline-flex h-14 shrink-0 items-center justify-center gap-3 self-start rounded-full bg-background px-8 text-base font-medium text-foreground transition-transform hover:scale-[1.03] md:self-auto",
+        "ariaLabel": null,
+        "rect": {
+          "width": 176.300048828125,
+          "height": 45.919921875
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "lab(2.74981 0.342108 0.628802)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "cssVars": {}
+  },
+  "process": {
+    "title": "Process — Ananta Cast",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "next-size-adjust": "",
+      "theme-color": "#121110",
+      "color-scheme": "dark",
+      "description": "Tooling and wax, shell building, melting and pouring, fettling and heat treatment, CNC machining and inspection — the six stages of every Ananta Cast part.",
+      "generator": "v0.app"
+    },
+    "sections": [
+      {
+        "tag": "header",
+        "id": "",
+        "classes": "fixed inset-x-0 top-0 z-50 transition-colors duration-500 bg-transparent",
+        "rect": {
+          "width": 1440,
+          "height": 64,
+          "top": 0
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "position": "fixed",
+          "backdropFilter": "none",
+          "zIndex": "50"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 0,
+        "id": "",
+        "classes": "relative h-[125svh]",
+        "heading": "From wax to finished.",
+        "rect": {
+          "width": 1440,
+          "height": 1125,
+          "top": 0
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 1,
+        "id": "process",
+        "classes": "relative h-[600svh]",
+        "heading": "Six stages. One accountable partner.",
+        "rect": {
+          "width": 1440,
+          "height": 5400,
+          "top": 1125
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 2,
+        "id": "",
+        "classes": "py-28 md:py-40",
+        "heading": "From enquiry to series production.",
+        "rect": {
+          "width": 1440,
+          "height": 1256.5,
+          "top": 6525
+        },
+        "styles": {
+          "padding": "160px 0px 160px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 3,
+        "id": "",
+        "classes": "px-3 py-20 md:px-6 md:py-28",
+        "heading": "Send us a drawing.",
+        "rect": {
+          "width": 1440,
+          "height": 568.3125,
+          "top": 7781.5
+        },
+        "styles": {
+          "padding": "112px 24px 112px 24px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "footer",
+        "classes": "relative overflow-hidden border-t border-border pt-16",
+        "rect": {
+          "width": 1440,
+          "height": 569.671875,
+          "top": 8349.8125
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px 0px 0px 0px"
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "alt": "Wax pattern tree assembled on a central sprue",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 1512,
+        "displayHeight": 945,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "alt": "Wax pattern tree assembled on a central sprue",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 918.719970703125,
+        "displayHeight": 1044,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/ceramic-shell.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/ceramic-shell.png",
+        "alt": "Wax tree coated with white ceramic shell",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/hero-pour.png",
+        "alt": "Molten metal pouring into ceramic shells",
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "alt": "Raw investment cast stainless steel impeller",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "alt": "CNC machine cutting a cast component",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "alt": "CMM probe measuring a machined part",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 950.3999633789062,
+        "displayHeight": 1080,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "fonts": [],
+    "interactiveElements": [],
+    "colors": {},
+    "typography": {},
+    "buttons": [
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "classes": "-mr-2 flex size-11 items-center justify-center lg:hidden",
+        "ariaLabel": "Open menu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "links": [
+      {
+        "tag": "a",
+        "text": "ANANTA CAST",
+        "href": "/",
+        "classes": "flex min-h-11 items-center",
+        "ariaLabel": "Ananta Cast home",
+        "rect": {
+          "width": 172.703125,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 37,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 49,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 56,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 60,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "hidden h-10 items-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-molten lg:inline-flex",
+        "ariaLabel": null,
+        "rect": {
+          "width": 149,
+          "height": 40
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(93.0632 0.45988 3.01539)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "flex h-12 items-center justify-center rounded-full bg-molten font-medium text-background",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "group inline-flex h-14 shrink-0 items-center justify-center gap-3 self-start rounded-full bg-background px-8 text-base font-medium text-foreground transition-transform hover:scale-[1.03] md:self-auto",
+        "ariaLabel": null,
+        "rect": {
+          "width": 176.300048828125,
+          "height": 45.919921875
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "lab(2.74981 0.342108 0.628802)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "cssVars": {}
+  },
+  "products": {
+    "title": "Products — Ananta Cast",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "next-size-adjust": "",
+      "theme-color": "#121110",
+      "color-scheme": "dark",
+      "description": "Valve bodies, pump impellers, levers, brackets, fittings and machined assemblies — investment cast and CNC finished to drawing.",
+      "generator": "v0.app"
+    },
+    "sections": [
+      {
+        "tag": "header",
+        "id": "",
+        "classes": "fixed inset-x-0 top-0 z-50 transition-colors duration-500 bg-transparent",
+        "rect": {
+          "width": 1440,
+          "height": 64,
+          "top": 0
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "position": "fixed",
+          "backdropFilter": "none",
+          "zIndex": "50"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 0,
+        "id": "",
+        "classes": "relative h-[125svh]",
+        "heading": "Built to your drawing.",
+        "rect": {
+          "width": 1440,
+          "height": 1125,
+          "top": 0
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 1,
+        "id": "",
+        "classes": "py-20 md:py-32",
+        "heading": "Valve bodies",
+        "rect": {
+          "width": 1440,
+          "height": 2371.5,
+          "top": 1125
+        },
+        "styles": {
+          "padding": "128px 0px 128px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 2,
+        "id": "",
+        "classes": "relative h-[280svh]",
+        "heading": "Ready to fit. Not ready to machine.",
+        "rect": {
+          "width": 1440,
+          "height": 2520,
+          "top": 3496.5
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 3,
+        "id": "",
+        "classes": "px-3 py-20 md:px-6 md:py-28",
+        "heading": "Have a part in mind?",
+        "rect": {
+          "width": 1440,
+          "height": 656.625,
+          "top": 6016.5
+        },
+        "styles": {
+          "padding": "112px 24px 112px 24px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "footer",
+        "classes": "relative overflow-hidden border-t border-border pt-16",
+        "rect": {
+          "width": 1440,
+          "height": 569.671875,
+          "top": 6673.125
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px 0px 0px 0px"
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "alt": "Precision machined stainless steel valve body",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 1512,
+        "displayHeight": 945,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "alt": "Valve bodies",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 636,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "alt": "Pump impellers",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 636,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/bracket.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/bracket.png",
+        "alt": "Levers & brackets",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 636,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "alt": "Hygienic fittings",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 635.9998779296875,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "alt": "Turbo & hot-section parts",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 635.9998779296875,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/bracket.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/bracket.png",
+        "alt": "Forks & linkages",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 635.9998779296875,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cnc.png",
+        "alt": "Machined assemblies",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 636,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "alt": "Pump casings",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 636,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/wax-tree.png",
+        "alt": "Prototype castings",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 424,
+        "displayHeight": 636,
+        "classes": "object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "alt": "Precision machined stainless steel investment cast valve body",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 1166.327880859375,
+        "displayHeight": 653.6953125,
+        "classes": "object-contain md:object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "fonts": [],
+    "interactiveElements": [],
+    "colors": {},
+    "typography": {},
+    "buttons": [
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "classes": "-mr-2 flex size-11 items-center justify-center lg:hidden",
+        "ariaLabel": "Open menu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "All",
+        "href": null,
+        "classes": "relative h-11 rounded-full border px-5 text-sm transition-colors border-transparent text-background",
+        "ariaLabel": null,
+        "rect": {
+          "width": 57,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Flow control",
+        "href": null,
+        "classes": "relative h-11 rounded-full border px-5 text-sm transition-colors border-border text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 118,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Rotating",
+        "href": null,
+        "classes": "relative h-11 rounded-full border px-5 text-sm transition-colors border-border text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 94,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Structural",
+        "href": null,
+        "classes": "relative h-11 rounded-full border px-5 text-sm transition-colors border-border text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 103,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Machined",
+        "href": null,
+        "classes": "relative h-11 rounded-full border px-5 text-sm transition-colors border-border text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 106,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "3.35544e+07px"
+        }
+      }
+    ],
+    "links": [
+      {
+        "tag": "a",
+        "text": "ANANTA CAST",
+        "href": "/",
+        "classes": "flex min-h-11 items-center",
+        "ariaLabel": "Ananta Cast home",
+        "rect": {
+          "width": 172.703125,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 37,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 49,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 56,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 60,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "hidden h-10 items-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-molten lg:inline-flex",
+        "ariaLabel": null,
+        "rect": {
+          "width": 149,
+          "height": 40
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(93.0632 0.45988 3.01539)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "flex h-12 items-center justify-center rounded-full bg-molten font-medium text-background",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "group inline-flex h-14 shrink-0 items-center justify-center gap-3 self-start rounded-full bg-background px-8 text-base font-medium text-foreground transition-transform hover:scale-[1.03] md:self-auto",
+        "ariaLabel": null,
+        "rect": {
+          "width": 176.300048828125,
+          "height": 45.919921875
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "lab(2.74981 0.342108 0.628802)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "cssVars": {}
+  },
+  "industries": {
+    "title": "Industries — Ananta Cast",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "next-size-adjust": "",
+      "theme-color": "#121110",
+      "color-scheme": "dark",
+      "description": "Investment cast and machined components for pumps and valves, oil and gas, automotive, agriculture, food and pharma, and general engineering.",
+      "generator": "v0.app"
+    },
+    "sections": [
+      {
+        "tag": "header",
+        "id": "",
+        "classes": "fixed inset-x-0 top-0 z-50 transition-colors duration-500 bg-transparent",
+        "rect": {
+          "width": 1440,
+          "height": 64,
+          "top": 0
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "position": "fixed",
+          "backdropFilter": "none",
+          "zIndex": "50"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 0,
+        "id": "",
+        "classes": "relative h-[125svh]",
+        "heading": "Parts that keep industry moving.",
+        "rect": {
+          "width": 1440,
+          "height": 1125,
+          "top": 0
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 1,
+        "id": "",
+        "classes": "py-20 md:py-32",
+        "heading": "01 Pumps & valves",
+        "rect": {
+          "width": 1440,
+          "height": 1536.5,
+          "top": 1125
+        },
+        "styles": {
+          "padding": "128px 0px 128px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 2,
+        "id": "",
+        "classes": "relative px-5 py-32 md:px-10 md:py-48",
+        "heading": null,
+        "rect": {
+          "width": 1440,
+          "height": 843.125,
+          "top": 2661.5
+        },
+        "styles": {
+          "padding": "192px 40px 192px 40px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 3,
+        "id": "",
+        "classes": "px-3 py-20 md:px-6 md:py-28",
+        "heading": "Send us a drawing.",
+        "rect": {
+          "width": 1440,
+          "height": 568.3125,
+          "top": 3504.625
+        },
+        "styles": {
+          "padding": "112px 24px 112px 24px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "footer",
+        "classes": "relative overflow-hidden border-t border-border pt-16",
+        "rect": {
+          "width": 1440,
+          "height": 569.671875,
+          "top": 4072.9375
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px 0px 0px 0px"
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/impeller.png",
+        "alt": "Investment cast stainless steel pump impeller",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 1512,
+        "displayHeight": 945,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/finished-part.png",
+        "alt": "",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 604,
+        "displayHeight": 377.5,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "fonts": [],
+    "interactiveElements": [],
+    "colors": {},
+    "typography": {},
+    "buttons": [
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "classes": "-mr-2 flex size-11 items-center justify-center lg:hidden",
+        "ariaLabel": "Open menu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "01 Pumps & valves",
+        "href": null,
+        "classes": "group flex w-full items-center gap-4 py-7 text-left md:gap-8 md:py-10",
+        "ariaLabel": null,
+        "rect": {
+          "width": 1320,
+          "height": 140
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "02 Oil, gas & petrochem",
+        "href": null,
+        "classes": "group flex w-full items-center gap-4 py-7 text-left md:gap-8 md:py-10",
+        "ariaLabel": null,
+        "rect": {
+          "width": 1320,
+          "height": 140
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "03 Automotive",
+        "href": null,
+        "classes": "group flex w-full items-center gap-4 py-7 text-left md:gap-8 md:py-10",
+        "ariaLabel": null,
+        "rect": {
+          "width": 1320,
+          "height": 140
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "04 Agriculture & earthmoving",
+        "href": null,
+        "classes": "group flex w-full items-center gap-4 py-7 text-left md:gap-8 md:py-10",
+        "ariaLabel": null,
+        "rect": {
+          "width": 1320,
+          "height": 140
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "05 Food & pharma",
+        "href": null,
+        "classes": "group flex w-full items-center gap-4 py-7 text-left md:gap-8 md:py-10",
+        "ariaLabel": null,
+        "rect": {
+          "width": 1320,
+          "height": 140
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "06 General engineering",
+        "href": null,
+        "classes": "group flex w-full items-center gap-4 py-7 text-left md:gap-8 md:py-10",
+        "ariaLabel": null,
+        "rect": {
+          "width": 1320,
+          "height": 140
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "links": [
+      {
+        "tag": "a",
+        "text": "ANANTA CAST",
+        "href": "/",
+        "classes": "flex min-h-11 items-center",
+        "ariaLabel": "Ananta Cast home",
+        "rect": {
+          "width": 172.703125,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 37,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 49,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 56,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 60,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "hidden h-10 items-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-molten lg:inline-flex",
+        "ariaLabel": null,
+        "rect": {
+          "width": 149,
+          "height": 40
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(93.0632 0.45988 3.01539)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "flex h-12 items-center justify-center rounded-full bg-molten font-medium text-background",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "group inline-flex h-14 shrink-0 items-center justify-center gap-3 self-start rounded-full bg-background px-8 text-base font-medium text-foreground transition-transform hover:scale-[1.03] md:self-auto",
+        "ariaLabel": null,
+        "rect": {
+          "width": 176.300048828125,
+          "height": 45.919921875
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "lab(2.74981 0.342108 0.628802)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "cssVars": {}
+  },
+  "contact": {
+    "title": "Contact — Ananta Cast",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "next-size-adjust": "",
+      "theme-color": "#121110",
+      "color-scheme": "dark",
+      "description": "Request a quote from Ananta Cast. Send your drawing, material and annual quantity — we reply with feasibility and pricing.",
+      "generator": "v0.app"
+    },
+    "sections": [
+      {
+        "tag": "header",
+        "id": "",
+        "classes": "fixed inset-x-0 top-0 z-50 transition-colors duration-500 bg-transparent",
+        "rect": {
+          "width": 1440,
+          "height": 64,
+          "top": 0
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "position": "fixed",
+          "backdropFilter": "none",
+          "zIndex": "50"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 0,
+        "id": "",
+        "classes": "relative h-[125svh]",
+        "heading": "Send a drawing. Get a part.",
+        "rect": {
+          "width": 1440,
+          "height": 1125,
+          "top": 0
+        },
+        "styles": {
+          "padding": "0px 0px 0px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "section",
+        "index": 1,
+        "id": "contact",
+        "classes": "relative py-28 md:py-40",
+        "heading": "Send us a drawing.",
+        "rect": {
+          "width": 1440,
+          "height": 855.1875,
+          "top": 1125
+        },
+        "styles": {
+          "padding": "160px 0px 160px 0px",
+          "margin": "0px 0px 0px 0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "border": "0px solid lab(100 0 0 / 0.1)"
+        }
+      },
+      {
+        "tag": "footer",
+        "classes": "relative overflow-hidden border-t border-border pt-16",
+        "rect": {
+          "width": 1440,
+          "height": 569.671875,
+          "top": 1980.1875
+        },
+        "styles": {
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "64px 0px 0px 0px"
+        }
+      }
+    ],
+    "images": [
+      {
+        "src": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "currentSrc": "https://ananta-cast-website-design.vercel.app/images/cmm.png",
+        "alt": "Coordinate measuring machine inspecting a cast component",
+        "naturalWidth": 1408,
+        "naturalHeight": 768,
+        "displayWidth": 1512,
+        "displayHeight": 945,
+        "classes": "object-cover",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      }
+    ],
+    "fonts": [],
+    "interactiveElements": [],
+    "colors": {},
+    "typography": {},
+    "buttons": [
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "classes": "-mr-2 flex size-11 items-center justify-center lg:hidden",
+        "ariaLabel": "Open menu",
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "Your name",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.8125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "Company",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.828125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "you@company.com",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.8125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "+91",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.828125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "e.g. CF8M, WCB",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.8125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "input",
+        "text": "e.g. 5,000 pcs",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors",
+        "ariaLabel": null,
+        "rect": {
+          "width": 317.828125,
+          "height": 49
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "textarea",
+        "text": "Part description, weight, tolerances, machining requirements…",
+        "href": null,
+        "classes": "w-full border-0 border-b border-foreground/20 bg-transparent px-0 py-3 text-base text-foreground placeholder:text-foreground/35 focus:border-molten focus:ring-0 focus:outline-none transition-colors resize-none",
+        "ariaLabel": null,
+        "rect": {
+          "width": 667.640625,
+          "height": 121
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "button",
+        "text": "Request a quote",
+        "href": null,
+        "classes": "group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-molten px-8 text-base font-medium text-background transition-colors hover:bg-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 215,
+          "height": 56
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      }
+    ],
+    "links": [
+      {
+        "tag": "a",
+        "text": "ANANTA CAST",
+        "href": "/",
+        "classes": "flex min-h-11 items-center",
+        "ariaLabel": "Ananta Cast home",
+        "rect": {
+          "width": 172.703125,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 37,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 49,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 56,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "relative py-2 text-sm transition-colors hover:text-foreground text-foreground/65",
+        "ariaLabel": null,
+        "rect": {
+          "width": 60,
+          "height": 33
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.65)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "hidden h-10 items-center rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-molten lg:inline-flex",
+        "ariaLabel": null,
+        "rect": {
+          "width": 149,
+          "height": 40
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(93.0632 0.45988 3.01539)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-14 items-center justify-between text-2xl font-medium tracking-tight",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Request a quote",
+        "href": "/contact",
+        "classes": "flex h-12 items-center justify-center rounded-full bg-molten font-medium text-background",
+        "ariaLabel": null,
+        "rect": {
+          "width": 0,
+          "height": 0
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "lab(2.74981 0.342108 0.628802)",
+          "backgroundColor": "lab(61.3135 56.657 68.0212)",
+          "borderRadius": "3.35544e+07px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "bhavin.m@anantacast.com",
+        "href": "mailto:bhavin.m@anantacast.com",
+        "classes": "group mt-10 inline-flex min-h-11 items-center gap-2 text-lg font-medium underline decoration-foreground/30 underline-offset-8 transition-colors hover:text-molten hover:decoration-molten",
+        "ariaLabel": null,
+        "rect": {
+          "width": 250,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "color": "lab(93.0632 0.45988 3.01539)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "About",
+        "href": "/about",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Capabilities",
+        "href": "/capabilities",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Process",
+        "href": "/process",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Products",
+        "href": "/products",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Industries",
+        "href": "/industries",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      },
+      {
+        "tag": "a",
+        "text": "Contact",
+        "href": "/contact",
+        "classes": "flex min-h-11 items-center text-foreground/70 hover:text-foreground",
+        "ariaLabel": null,
+        "rect": {
+          "width": 72,
+          "height": 44
+        },
+        "styles": {
+          "fontFamily": "\"Inter Tight\", \"Inter Tight Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "oklab(0.939999 0.00137967 0.00790006 / 0.7)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px"
+        }
+      }
+    ],
+    "cssVars": {}
+  }
+}
